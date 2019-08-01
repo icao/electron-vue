@@ -1,7 +1,10 @@
-# Electron Vue 🖖🏻
+<h1 align="center">
+  <br>
+    <img src="https://github.com/icao/electron-vue/tree/master/banner_electron_vue.jpg" alt="logo" width="100%">
+  <br>
+</h1>
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/sdras.night-owl.svg)](https://aka.ms/nightowl)
-[![Downloads](https://img.shields.io/vscode-marketplace/r/sdras.night-owl.svg)](https://aka.ms/nightowl)
+# Electron Vue 🖖🏻
 
 This is a cool theme for cool developers!!! 😎💻
 

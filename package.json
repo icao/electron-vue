@@ -1,5 +1,5 @@
 {
-    "name": "Electron vue",
+    "name": "electron-vue",
     "displayName": "Electron vue",
     "description": "This is a cool theme for cool developers!!!",
     "version": "0.0.1",
@@ -20,7 +20,7 @@
         "Vue",
         "Accessible Theme"
     ],
-    "icon": "logo-theme.png",
+    "icon": "https://github.com/icao/electron-vue/tree/master/logo-theme.png",
     "repository": {
         "type": "git",
         "url": "_PENDIENTE_"
