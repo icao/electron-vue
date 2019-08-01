@@ -20,7 +20,7 @@
         "Vue",
         "Accessible Theme"
     ],
-    "icon": "https://github.com/icao/electron-vue/tree/master/logo-theme.png",
+    "icon": "https://raw.githubusercontent.com/icao/electron-vue/master/assets/logo-theme.png",
     "repository": {
         "type": "git",
         "url": "_PENDIENTE_"

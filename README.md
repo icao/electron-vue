@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-    <img src="https://github.com/icao/electron-vue/tree/master/banner_electron_vue.jpg" alt="logo" width="100%">
+    <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/banner_electron_vue.jpg" alt="logo" width="100%">
   <br>
 </h1>
 
