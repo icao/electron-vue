@@ -6,6 +6,18 @@
 
 # Electron Vue 🖖🏻
 
+<h1 align="center">
+  <br>
+    <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/es6.png" alt="logo" width="100%">
+  <br>
+</h1>
+
+<h1 align="center">
+  <br>
+    <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/front.jpg" alt="logo" width="100%">
+  <br>
+</h1>
+
 This is a cool theme for cool developers!!! 😎💻
 
 ## Activate theme ✅
@@ -33,7 +45,7 @@ Type theme, choose **Preferences: Color Theme**, and select: **Electron Vue**.
     // Font Size
     "editor.fontSize": 19,
     // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
-    "editor.lineHeight": 26,
+    "editor.lineHeight": 28,
     // Enables font ligatures
     "editor.fontLigatures": true,
     // Custom cursor
