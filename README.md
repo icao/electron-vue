@@ -8,13 +8,13 @@
 
 <h1 align="center">
   <br>
-    <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/javascript.jpg" alt="logo" width="100%">
+    <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/javascript.png" alt="logo" width="100%">
   <br>
 </h1>
 
 <h1 align="center">
   <br>
-    <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/frontend.jpg" alt="logo" width="100%">
+    <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/frontend.png" alt="logo" width="100%">
   <br>
 </h1>
 
