@@ -1,38 +1,38 @@
 {
-    "name": "electron-vue",
-    "displayName": "Electron vue",
-    "description": "This is a cool theme for cool developers!!!",
-    "version": "0.0.1",
-    "author": "César Aparicio [@icao]",
-    "publisher": "icao",
-    "license": "MIT",
-    "engines": {
-        "vscode": "^1.34.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "VSCode",
-        "Themes",
-        "Dark Theme",
-        "Electron",
-        "Electron Vue",
-        "Vue",
-        "Accessible Theme"
-    ],
-    "icon": "https://raw.githubusercontent.com/icao/electron-vue/master/assets/logo-theme.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/icao/electron-vue"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Electron vue",
-                "uiTheme": "vs-dark",
-                "path": "./themes/electron-vue-color-theme.json"
-            }
-        ]
-    }
+  "name": "electron-vue",
+  "displayName": "Electron vue",
+  "description": "This is a cool theme for cool developers!!!",
+  "version": "0.0.1",
+  "author": "César Aparicio [@icao]",
+  "publisher": "icao",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.34.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes",
+    "Dark Theme",
+    "Electron",
+    "Electron Vue",
+    "Vue",
+    "Accessible Theme"
+  ],
+  "icon": "logo-theme.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icao/electron-vue"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Electron vue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/electron-vue-color-theme.json"
+      }
+    ]
+  }
 }
