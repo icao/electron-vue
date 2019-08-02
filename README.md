@@ -6,19 +6,14 @@
 
 # Electron Vue 🖖🏻
 
-<h1 align="center">
-  <br>
-    <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/javascript.png" alt="logo" width="100%">
-  <br>
-</h1>
-
-<h1 align="center">
-  <br>
-    <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/frontend.png" alt="logo" width="100%">
-  <br>
-</h1>
-
 This is a cool theme for cool developers!!! 😎💻
+
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/javascript.png" alt="logo" width="100%">
+  <br>
+  <br>
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/frontend.png" alt="logo" width="100%">
+</h1>
 
 ## Activate theme ✅
 
