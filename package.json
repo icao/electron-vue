@@ -16,8 +16,10 @@
     "VSCode",
     "Themes",
     "Dark Theme",
+    "Darker Theme",
     "Electron",
     "Electron Vue",
+    "Electron Vue Darker",
     "Vue",
     "Accessible Theme"
   ],
@@ -32,6 +34,11 @@
         "label": "Electron vue",
         "uiTheme": "vs-dark",
         "path": "./themes/electron-vue-color-theme.json"
+      },
+      {
+        "label": "Electron vue darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/electron-vue-darker-color-theme.json"
       }
     ]
   }
