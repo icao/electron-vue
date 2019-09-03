@@ -481,7 +481,7 @@
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#6af699"
+				"foreground": "#6af698"
 			}
 		},
 		{
