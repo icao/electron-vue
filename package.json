@@ -2,7 +2,7 @@
   "name": "electron-vue",
   "displayName": "Electron vue",
   "description": "This is a cool theme for cool developers!!!",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "author": "César Aparicio [@icao]",
   "publisher": "icao",
   "license": "MIT",
@@ -17,11 +17,13 @@
     "Themes",
     "Dark Theme",
     "Darker Theme",
+    "Darker",
     "Electron",
     "Electron Vue",
     "Electron Vue Darker",
     "Vue",
-    "Accessible Theme"
+    "Accessible Theme",
+    "Hight Contrast"
   ],
   "icon": "logo-theme.png",
   "repository": {
