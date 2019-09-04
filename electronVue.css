@@ -1,9 +1,4 @@
-.mtk3 {
-  /* color: #c792ea; */
-  /* text-shadow: 0 0 2px #100c0f, 0 0 10px #f0b8db50, 0 0 20px #f5d1e850; */
-}
-
-/* COlor of tha class name JS*/
+/* Color of tha class name JS*/
 .mtk10 {
   /* color: #fffa9e; */
   color: #fdf9aa;
@@ -39,54 +34,9 @@
     0 0 25px #f86d1c80;
 }
 
-/* 
-.mtk4 {
-  color: #6d77b3;
-}
-
-.mtk5 {
-  color: #f97e72;
-}
-
-.mtk6 {
-  color: #fdfdfd;
-  text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975;
-}
-
-.mtk7 {
-  color: #fff5f6;
-  text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75;
-}
-
-
-
-.mtk9 {
-  color: #f4eee4;
-  text-shadow: 0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575;
-}
-
-.monaco-editor .margin, .monaco-editor .inputarea.ime-input {
-  background: transparent;
-} */
-
-/* Add the subtle gradient to the editor background */
-/* .monaco-editor {
-  background-color: transparent !important;
-  background-image: linear-gradient(to bottom, #2a2139 75%, #34294f);
-  background-size: auto 100vh;
-  background-position: top;
-  background-repeat: no-repeat;
-} */
-
-/* Sweet sunset dots */
+/* Dosts of changes */
 /* .monaco-workbench .activitybar>.content .monaco-action-bar .badge .badge-content {
-  background: linear-gradient(to bottom, #fff951 25%, #fc28a8);
-} */
-
-/* Active tab neon */
-/* .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.active {
-  box-shadow: inset 0 -5px 25px #fc28a825;
-  position: relative;
+  background: linear-gradient(to bottom, #79f9b4 25%, #499ff6);
 } */
 
 /* Active tab stripe */
@@ -126,27 +76,6 @@
   z-index: 6;
 }
 
-/* Active sidebar item */
-/* .monaco-workbench .activitybar>.content .monaco-action-bar .action-item.checked {
-  box-shadow: inset 0 -5px 25px #fc28a825;
-  position: relative;
-} */
-
-/* .monaco-workbench
-  .activitybar
-  > .content
-  .monaco-action-bar
-  .action-item.checked::after {
-  content: "";
-  position: absolute;
-  bottom: 0px;
-  top: 0px;
-  left: 0px;
-  width: 3px;
-  background: linear-gradient(to bottom, #79f9b4, #499ff6, #8c5bff) !important;
-  opacity: 1;
-} */
-
 .monaco-workbench
   .activitybar
   > .content
@@ -182,7 +111,6 @@
 }
 
 /*Style Tab Active on Terminal*/
-
 .monaco-workbench
   .part.panel
   > .title
@@ -194,3 +122,12 @@
   border-image-source: linear-gradient(90deg, #79f9b4, #499ff6, #8c5bff);
   border-image-slice: 1;
 }
+
+/* Editor Separator */
+/* .monaco-sash.vertical {
+  cursor: ew-resize;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to bottom, #79f9b4, #499ff6, #8c5bff) !important;
+} */
