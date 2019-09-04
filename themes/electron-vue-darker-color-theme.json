@@ -1877,7 +1877,7 @@
 				// "entity.name.tag.template.html" // Colorea tag <template> 
 			],
 			"settings": {
-				"foreground": "#8146FE"
+				"foreground": "#c792eb"
 			}
 		},
 		// {
