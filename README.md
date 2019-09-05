@@ -24,7 +24,7 @@ You can install this awesome and cool theme through the [Visual Studio Code Mark
 5. Click **Install** to install it
 6. Click **Reload** to reload the Code
 
-## Activate theme ✅
+## Activate Electron Vue Theme ✅
 
 Launch *Quick Open*:
 
@@ -34,15 +34,30 @@ Launch *Quick Open*:
 
 Type theme, choose **Preferences: Color Theme**
 
-And select: **Electron Vue**.
+And select: **Electron vue**
 
 ## And Now...! 👉🏻 The new variant: Electron Vue Darker 😍
+
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electrone_vue_darker.jpg" alt="vue darker theme" width="100%">
-</h1>
-<h1 align="center">
+  <br />
   <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electrone_vue_editor.jpg" alt="vue darker theme" width="100%">
 </h1>
+
+## Activate Electron Vue Darker Theme ✅
+
+Launch *Quick Open*:
+
+  - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
+  - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
+  - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
+
+Type theme, choose **Preferences: Color Theme**
+
+Select: **Electron vue darker**
+
+And enjoy 🎉🕺🏻🎊
+
 ## Recommended settings for a better experience 🎨
 
 1️⃣ Install the icons [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
