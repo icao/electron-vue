@@ -32,8 +32,7 @@ Launch *Quick Open*:
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-Type theme, choose **Preferences: Color Theme**
-
+Type theme, choose **Preferences: Color Theme**  
 And select: **Electron vue**
 
 ## And Now...! 👉🏻 The new variant: Electron Vue Darker 😍
@@ -52,19 +51,17 @@ Launch *Quick Open*:
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-Type theme, choose **Preferences: Color Theme**
-
-Select: **Electron vue darker**
-
-And enjoy 🎉🕺🏻🎊
+Type theme, choose **Preferences: Color Theme**  
+Select: **Electron vue darker**  
+And enjoy! 🎉🕺🏻🎊
 
 ## Recommended settings for a better experience 🎨
 
-1️⃣ Install the icons [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
+1. Install the icons [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
 
-2️⃣ Install the extension [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer).
+2. Install the extension [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer).
 
-3️⃣ And via user settings:
+3. And via user settings:
 
 ```js
 {
