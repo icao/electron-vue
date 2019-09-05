@@ -1,4 +1,12 @@
-/* Color of tha class name JS*/
+/* Color of function name JS*/
+.mtk7 {
+  /* color: #82aaff; */
+  color: #adc7ff;
+  text-shadow: 0 0 2px #000, 0 0 10px #084ee6bd, 0 0 5px #084ee6bd,
+    0 0 25px #084ee6bd;
+}
+
+/* Color of class name JS*/
 .mtk10 {
   /* color: #fffa9e; */
   color: #fdf9aa;
@@ -6,7 +14,7 @@
     0 0 25px #f86d1c80;
 }
 
-/* Color of components tag VUE*/
+/* Color of components tag vue and react JSX*/
 .mtk11 {
   color: #d6a7f5;
   text-shadow: 0 0 2px #000, 0 0 10px #f7127d75, 0 0 5px #f7127d75,
@@ -20,13 +28,6 @@
     0 0 25px #1af36275;
 }
 
-/* Color of components react tag JSX*/
-.mtk20 {
-  color: #d6a7f5;
-  text-shadow: 0 0 2px #000, 0 0 10px #f7127d75, 0 0 5px #f7127d75,
-    0 0 25px #f7127d75;
-}
-
 /*Color of this JS*/
 .mtk24 {
   color: #f0d5b9;
@@ -36,7 +37,7 @@
 
 /* Dosts of changes */
 /* .monaco-workbench .activitybar>.content .monaco-action-bar .badge .badge-content {
-  background: linear-gradient(to bottom, #79f9b4 25%, #499ff6);
+  background: linear-gradient(to bottom, #499ff6 25%, #8c5bff);
 } */
 
 /* Active tab stripe */
