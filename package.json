@@ -9,6 +9,10 @@
   "engines": {
     "vscode": "^1.34.0"
   },
+  "galleryBanner": {
+    "color": "#212836",
+    "theme": "dark"
+  },
   "categories": [
     "Themes"
   ],
