@@ -83,10 +83,10 @@ And enjoy! 🎉🕺🏻🎊
     "material-icon-theme.folders.theme": "specific",
     "material-icon-theme.hidesExplorerArrows": true,
     // Terminal only Windows
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 18,
     "terminal.integrated.fontWeightBold": "600",
     "terminal.integrated.fontWeight": "300",
-    "terminal.integrated.fontFamily": "'Operator Mono Light'"
+    "terminal.integrated.fontFamily": "'Operator Mono Lig'"
 }
 ```
 
