@@ -479,7 +479,7 @@
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#6af699"
+				"foreground": "#6af698"
 			}
 		},
 		{
@@ -1998,8 +1998,8 @@
 				"variable.language.this.jsx"
 			],
 			"settings": {
-				// "foreground": "#e9b684"
-				"foreground": "#ffbf7a"
+				// "foreground": "#ffbf7a",
+				"foreground": "#ffbf7b"
 			}
 		},
 		{

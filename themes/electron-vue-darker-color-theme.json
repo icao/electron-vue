@@ -2000,9 +2000,8 @@
 				"variable.language.this.jsx"
 			],
 			"settings": {
-				// "foreground": "#e9b684"
 				// "foreground": "#ffbf7a"
-				"foreground": "#ffbe79"
+				"foreground": "#ffbf7b"
 			}
 		},
 		{
