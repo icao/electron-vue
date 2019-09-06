@@ -1,9 +1,9 @@
 /* Color of function name JS*/
 .mtk7 {
   /* color: #82aaff; */
-  color: #adc7ff;
-  text-shadow: 0 0 2px #000, 0 0 10px #084ee6bd, 0 0 5px #084ee6bd,
-    0 0 25px #084ee6bd;
+  color: #afc8ff;
+  text-shadow: 0 0 2px #000, 0 0 10px #59a6ffda, 0 0 5px #11b9fc75,
+    0 0 25px #16aaff75;
 }
 
 /* Color of class name JS*/
@@ -23,15 +23,22 @@
 
 /* Color of inherited-class JS*/
 .mtk13 {
-  color: #82f7a9;
+  color: #98ffba;
   text-shadow: 0 0 2px #000, 0 0 10px #1af36275, 0 0 5px #1af36275,
     0 0 25px #1af36275;
 }
 
+/* JavaScript/TypeScript module imports and exports */
+.mtk20 {
+  color: #f1f5ff;
+  text-shadow: 0 0 2px #000, 0 0 3px #2ebdff75, 0 0 5px #8fc3ffda,
+    0 0 8px #8fc3ffda;
+}
+
 /*Color of this JS*/
-.mtk24 {
-  color: #f0d5b9;
-  text-shadow: 0 0 2px #000, 0 0 10px #f86d1c80, 0 0 5px #f86d1c80,
+.mtk25 {
+  color: #fdd5a9;
+  text-shadow: 0 0 2px #000, 0 0 10px #ff670fee, 0 0 5px #f86d1c80,
     0 0 25px #f86d1c80;
 }
 
@@ -87,10 +94,6 @@
   bottom: 0px;
   top: 0px;
   left: 0px;
-  /* width: 88%;
-  border: 2px solid #8c5bff;
-  border-image-source: linear-gradient( #79f9b4, #499ff6, #8c5bff);
-  border-image-slice: 10; */
   width: 2px;
   background: linear-gradient(to bottom, #79f9b4, #499ff6, #8c5bff) !important;
   opacity: 1;
