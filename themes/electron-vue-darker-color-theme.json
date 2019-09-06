@@ -1319,7 +1319,7 @@
 				"meta.export.js variable.other"
 			],
 			"settings": {
-				"foreground": "#bac7e4"
+				"foreground": "#bac7e5"
 			}
 		},
 		{
@@ -1797,7 +1797,7 @@
 				"meta.export.tsx punctuation.definition.block"
 			],
 			"settings": {
-				"foreground": "#bac7e4"
+				"foreground": "#bac7e5"
 			}
 		},
 		{
