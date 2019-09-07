@@ -1,8 +1,8 @@
-<h1 align="center">
+<p align="center">
   <br>
     <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/banner_electron_vue.jpg" alt="logo" width="100%">
   <br>
-</h1>
+</p>
 
 # 🖖 Electron Vue
 
@@ -34,7 +34,8 @@ Launch *Quick Open*:
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
 Type theme, choose **Preferences: Color Theme**  
-And select: **Electron vue**
+And select: **Electron vue**  
+Ready! 😁
 
 ## 📣 And Now...! The new variant: **Electron Vue Darker** 😍
 
@@ -79,7 +80,7 @@ And enjoy! 🎉🕺🏻🎊
 
 Neon mode enables some styles that cannot be managed from the VS Code configuration file.
 
-Fortunately, there is an plugin called "CSS and JS Loader custom"
+Fortunately, there is an plugin called "**CSS and JS Loader custom**"
 Read the details in documentation on how to install and use the plug-in.
 
 ## ✅ Activate The Neon Mode
@@ -107,7 +108,7 @@ Read the details in documentation on how to install and use the plug-in.
         }
         ```
 
-      > ⚠️ **Important:**  
+      > **Important:**  
       >
       > - Make sure you include the file protocol in the path i.e. `file://`
       > - In the case of windows users, do not forget to add to the path of the route `/C:`
@@ -155,6 +156,7 @@ Read the details in documentation on how to install and use the plug-in.
       ```
 
 ## Misc 📎
+
 This palette was inpired in [One Dark Syntax Theme](https://atom.io/themes/one-dark-syntax) for Atom, The project [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl&WT.mc_id=twitter-social-sdras, ) of Sarah Drasner ♥, equally in [Vue.js](https://vuejs.org) Framework. 😁
 
 It was made possible by the tutorial "[Create a VS code theme](https://css-tricks.com/creating-a-vs-code-theme/)" from [CSS-Tricks](https://css-tricks.com) 📚. 
