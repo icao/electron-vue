@@ -60,7 +60,7 @@ And enjoy! 🎉🕺🏻🎊
 ## ✋ But it is not all!
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon_03.jpg" alt="vue darker theme" width="100%">
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon.jpg" alt="vue darker theme" width="100%">
 </p>
 
 ### 👾 Hallucinate with neon mode
