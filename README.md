@@ -63,13 +63,18 @@ And enjoy! 🎉🕺🏻🎊
   <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon.jpg" alt="vue darker theme" width="100%">
 </p>
 
-### 👾 Hallucinate with neon mode
+## 👾 Hallucinate with neon mode
+
+### Vue
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon_03.jpg" alt="vue darker theme" width="100%">
+</p>
+
+### React
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon_02.jpg" alt="vue darker theme" width="100%">
-  <br />
-  <br />
-  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon_03.jpg" alt="vue darker theme" width="100%">
 </p>
 
 Neon mode enables some styles that cannot be managed from the VS Code configuration file.
