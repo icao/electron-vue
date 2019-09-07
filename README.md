@@ -4,18 +4,19 @@
   <br>
 </h1>
 
-# Electron Vue 🖖🏻
+# 🖖 Electron Vue
 
-This is a cool theme for cool developers!!! 😎💻
+This is a cool theme for cool developers!!! 🤓<small><small>🟢🔵🟣</small></small>😎
 
-<h1 align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue.jpg" alt="logo" width="100%">
-</h1>
+</p>
 
-## Getting started 🧰
+## 🧰 Getting started
+
 You can install this awesome and cool theme through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=icao.electron-vue).
 
-## Instalation 🧱
+## 🧱 Installation
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/download)
 2. Launch Visual Studio Code
@@ -24,7 +25,7 @@ You can install this awesome and cool theme through the [Visual Studio Code Mark
 5. Click **Install** to install it
 6. Click **Reload** to reload the Code
 
-## Activate Electron Vue Theme ✅
+## ✅ Activate Electron Vue Theme
 
 Launch *Quick Open*:
 
@@ -35,15 +36,16 @@ Launch *Quick Open*:
 Type theme, choose **Preferences: Color Theme**  
 And select: **Electron vue**
 
-## And Now...! 👉🏻 The new variant: Electron Vue Darker 😍
+## 📣 And Now...! The new variant: **Electron Vue Darker** 😍
 
-<h1 align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electrone_vue_darker.jpg" alt="vue darker theme" width="100%">
   <br />
+  <br />
   <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electrone_vue_editor.jpg" alt="vue darker theme" width="100%">
-</h1>
+</p>
 
-## Activate Electron Vue Darker Theme ✅
+## ✅ Activate Electron Vue Darker Theme
 
 Launch *Quick Open*:
 
@@ -55,11 +57,66 @@ Type theme, choose **Preferences: Color Theme**
 Select: **Electron vue darker**  
 And enjoy! 🎉🕺🏻🎊
 
-## Recommended settings for a better experience 🎨
+## ✋ But it is not all!
 
-1. Install the icons [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme).
+### 👾 Hallucinate with neon mode
 
-2. Install the extension [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer).
+<p align="center">
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon.jpg" alt="vue darker theme" width="100%">
+  <br />
+  <br />
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon_02.jpg" alt="vue darker theme" width="100%">
+</p>
+
+Neon mode enables some styles that cannot be managed from the VS Code configuration file.
+
+Fortunately, there is an plugin called "CSS and JS Loader custom"
+Read the details in documentation on how to install and use the plug-in.
+
+## ✅ Activate The Neon Mode
+
+   1. Install [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
+   2. Download the file [`electron-vue-darker-neon.css`](https://github.com/icao/electron-vue/blob/master/electron-vue-darker-neon.css) or copy the content into a custom file
+   3. Copy your styles file to root directory or a safe place
+   4. Copy the file path and add it to the `settings.json` configuration file
+
+      ```json
+      {
+        "vscode_custom_css.imports": [
+          "file:///Users/{your username}/electron-vue-darker-neon.css"
+          ]
+      }
+      ```
+
+      On Windows:
+
+        ```json
+        {
+          "vscode_custom_css.imports": [
+            "file:///C:/Users/{your username}/electron-vue-darker-neon.css"
+            ]
+        }
+        ```
+
+      > ⚠️ **Important:**  
+      >
+      > - Make sure you include the file protocol in the path i.e. `file://`
+      > - In the case of windows users, do not forget to add to the path of the route `/C:`
+  
+   5. Launch *Quick Open*:
+      - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
+      - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
+      - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
+
+      Type **Enable custom CSS and JS**  
+      Restart  
+      And enjoy! 🎉🕺🏻🎊
+
+## 🎨 Recommended settings for a better experience
+
+1. Install the icons [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+2. Install the extension [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
 3. And via user settings:
 
