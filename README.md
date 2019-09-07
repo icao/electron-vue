@@ -6,7 +6,7 @@
 
 # 🖖 Electron Vue
 
-This is a cool theme for cool developers!!! 🤓<small><small>🟢🔵🟣</small></small>😎
+This is a cool theme for cool developers!!! 🤓<small>💫</small>😎
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue.jpg" alt="logo" width="100%">
@@ -59,13 +59,17 @@ And enjoy! 🎉🕺🏻🎊
 
 ## ✋ But it is not all!
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon_03.jpg" alt="vue darker theme" width="100%">
+</p>
+
 ### 👾 Hallucinate with neon mode
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon.jpg" alt="vue darker theme" width="100%">
-  <br />
-  <br />
   <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon_02.jpg" alt="vue darker theme" width="100%">
+  <br />
+  <br />
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon_03.jpg" alt="vue darker theme" width="100%">
 </p>
 
 Neon mode enables some styles that cannot be managed from the VS Code configuration file.
@@ -114,38 +118,36 @@ Read the details in documentation on how to install and use the plug-in.
 
 ## 🎨 Recommended settings for a better experience
 
-1. Install the icons [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+   1. Install the icons [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+   2. Install the extension [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+   3. And via user settings:
 
-2. Install the extension [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
-
-3. And via user settings:
-
-```js
-{
-    // Controls the font family.
-    "editor.fontFamily": "Operator Mono",
-    // Font Size
-    "editor.fontSize": 19,
-    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
-    "editor.lineHeight": 28,
-    // Enables font ligatures
-    "editor.fontLigatures": true,
-    // Custom cursor
-    "editor.cursorBlinking": "phase",
-    "editor.cursorWidth": 4,
-    // Controls if file decorations should use badges.
-    "explorer.decorations.badges": false,
-    // Material icon settings
-    "material-icon-theme.folders.color": "#37c886",
-    "material-icon-theme.folders.theme": "specific",
-    "material-icon-theme.hidesExplorerArrows": true,
-    // Terminal only Windows
-    "terminal.integrated.fontSize": 18,
-    "terminal.integrated.fontWeightBold": "600",
-    "terminal.integrated.fontWeight": "300",
-    "terminal.integrated.fontFamily": "'Operator Mono Lig'"
-}
-```
+      ```js
+      {
+          // Controls the font family.
+          "editor.fontFamily": "Operator Mono",
+          // Font Size
+          "editor.fontSize": 19,
+          // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+          "editor.lineHeight": 28,
+          // Enables font ligatures
+          "editor.fontLigatures": true,
+          // Custom cursor
+          "editor.cursorBlinking": "phase",
+          "editor.cursorWidth": 4,
+          // Controls if file decorations should use badges.
+          "explorer.decorations.badges": false,
+          // Material icon settings
+          "material-icon-theme.folders.color": "#37c886",
+          "material-icon-theme.folders.theme": "specific",
+          "material-icon-theme.hidesExplorerArrows": true,
+          // Terminal only Windows
+          "terminal.integrated.fontSize": 18,
+          "terminal.integrated.fontWeightBold": "600",
+          "terminal.integrated.fontWeight": "300",
+          "terminal.integrated.fontFamily": "'Operator Mono Lig'"
+      }
+      ```
 
 ## Misc 📎
 This palette was inpired in [One Dark Syntax Theme](https://atom.io/themes/one-dark-syntax) for Atom, The project [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl&WT.mc_id=twitter-social-sdras, ) of Sarah Drasner ♥, equally in [Vue.js](https://vuejs.org) Framework. 😁
