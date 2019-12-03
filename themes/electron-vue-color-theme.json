@@ -2,6 +2,8 @@
 	"name": "Electron vue",
 	"type": "dark",
 	"colors": {
+		"activityBar.activeBorder": "#37c886",
+		// "activityBar.activeBackground": "#37c886",
 		"activityBar.background": "#141820",
 		"activityBar.border": "#141820",
 		"activityBar.dropBackground": "#82aaff53",
@@ -192,6 +194,8 @@
 		"welcomePage.buttonBackground": "#141820",
 		"welcomePage.buttonHoverBackground": "#141820",
 		"widget.shadow": "#14182050",
+		"window.activeBorder": "#6af699",
+		"window.inactiveBorder": "#6af69960",
 		//"activityBar.inactiveForeground": "#c0c6d399",
 		//"breadcrumb.activeSelectionForeground": "#adb5c6",
 		// "breadcrumb.background": "#212836",
