@@ -495,13 +495,23 @@
 			}
 		},
 		{
-			"name": "Meta Tag",
+			"name": "Meta Tag", // only react simbols of tags aperture and close '<', '>', '/' 
 			"scope": [
 				"punctuation.definition.tag",
-				"meta.tag"
 			],
 			"settings": {
 				"foreground": "#a8b5d1"
+
+			}
+		},
+		{
+			"name": "Meta Punctuation", // HTML -> ':', '=', '@', '.'
+			"scope": [
+				"meta.tag"
+			],
+			"settings": {
+				"foreground": "#4ff2f8"
+
 			}
 		},
 		{
@@ -552,7 +562,7 @@
 			"name": "Support Constant Property Value meta",
 			"scope": "support.constant.meta.property-value",
 			"settings": {
-				"foreground": "#4ff2f8"
+				"foreground": "#c6e8e9"
 			}
 		},
 		{
@@ -1860,39 +1870,42 @@
 				"foreground": "#a8b5d1"
 			}
 		},
-		{
-			"name": "Text in Vue tags",
-			"scope": [
-				"meta.directive.vue punctuation"
-			],
-			"settings": {
-				"foreground": "#a8b5d1"
-			}
-		},
+		// { // Es para especificar unicamente en archivos .vue -> NOTA: Ya no es necesario, evaluar su uso a deprecated
+		// 	"name": "Text in Vue tags", // @, =, :,  -> solo estos simbolos  en los template de .vue
+		// 	"scope": [
+		// 		"meta.directive.vue punctuation",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#4ff2f8"
+		// 	}
+		// },
+		
+		// {
+		// 	"name": "Vue :Props", // DOSTS OF VUE PROPS DE TEMPLATE .VUE -> Ya no se usa,  evaluar para deprecated
+		// 	"scope": [
+		// 		"entity.other.attribute - name.html", //atributos excepto nombres de atributos html
+		// 		"meta.directive.vue",
+		// 		// "text.html.vue-html"
+		// 	],
+		// 	"settings": {
+		// 		// "foreground": "#4ff2f8"
+		// 		"foreground": "#c32cff"
+		// 	}
+		// },
 		{
 			"name": "Components Vue", // ESTA ES LA CLAVE PARA MODIFICAR EL COMPONENTE
 			"scope": [
 				// "text.html.vue-html", // Texto dentro del componente
 				"meta.tag.other.html text.html.vue",
-				// "entity.name.tag.style.html", //Colorea tag <style>
+				// "entity.name.tag.style.html", //Colorea tag <style> de single file .vue
 				"entity.name.tag.other.html", //Este sirve  solo cuando cierran el componente como en react <comp />
-				// "entity.name.tag.template.html" // Colorea tag <template> 
+				// "entity.name.tag.template.html" // Colorea tag <template>  de single file .vue
 			],
 			"settings": {
 				"foreground": "#c792eb"
 			}
 		},
-		// {
-		// 	"name": "Vue :Props", // DOSTS OF VUE PROPS
-		// 	"scope": [
-		// 		"entity.other.attribute - name.html",
-		// 		"meta.directive.vue",
-		// 		"text.html.vue - html"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#23EBD0"
-		// 	}
-		// },
+
 		{
 			"name": "TypeScript Classes",
 			"scope": "meta.class entity.name.type.class.tsx",
