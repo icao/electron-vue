@@ -118,7 +118,7 @@
 		"notifications.foreground": "#f8fafdcc",
 		"panel.background": "#1b212c",
 		"panel.border": "#1f1d18",
-		"panelTitle.activeBorder": "#c0c6d3cc",
+		"panelTitle.activeBorder": "#73c990",
 		"panelTitle.activeForeground": "#c0c6d3",
 		"panelTitle.inactiveForeground": "#99a3b8",
 		"peekView.border": "#1b212c",
@@ -138,6 +138,7 @@
 		"progressBar.background": "#82aaff",
 		"scrollbar.shadow": "#141820",
 		"scrollbarSlider.activeBackground": "#747d9180",
+		// "scrollbarSlider.background": "#73c99060",// AQUI MODIFICAR BARRAS
 		"scrollbarSlider.background": "#4e566660",
 		"scrollbarSlider.hoverBackground": "#5a637580",
 		"selection.background": "#4373c2",
