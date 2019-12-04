@@ -1879,7 +1879,6 @@
 		// 		"foreground": "#4ff2f8"
 		// 	}
 		// },
-		
 		// {
 		// 	"name": "Vue :Props", // DOSTS OF VUE PROPS DE TEMPLATE .VUE -> Ya no se usa,  evaluar para deprecated
 		// 	"scope": [
@@ -1905,7 +1904,6 @@
 				"foreground": "#c792eb"
 			}
 		},
-
 		{
 			"name": "TypeScript Classes",
 			"scope": "meta.class entity.name.type.class.tsx",
