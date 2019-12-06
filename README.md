@@ -68,9 +68,8 @@ And enjoy! 🎉🕺🏻🎊
 
 ### Vue
 
----
-🌈 Now better support for the single file of vuejs. Better colors and visibility
----
+> 🌈 Now better support for the single file of vuejs. Better colors and visibility 😍
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_neon_03.jpg" alt="vue darker theme" width="100%">
 </p>
