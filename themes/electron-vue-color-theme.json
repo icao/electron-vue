@@ -2072,7 +2072,7 @@
 				"source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue source.directive.vue variable.other.readwrite.js", // parametro evaluacion v-if
 			],
 			"settings": {
-				"foreground": "#dfe6fd"
+				"foreground": "#ffffff"
 			}
 		},
 		{
