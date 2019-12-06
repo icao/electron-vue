@@ -1869,69 +1869,6 @@
 				"foreground": "#a8b5d1"
 			}
 		},
-		// { // Es para especificar unicamente en archivos .vue -> NOTA: Ya no es necesario, evaluar su uso a deprecated
-		// 	"name": "Text in Vue tags", // @, =, :,  -> solo estos simbolos  en los template de .vue
-		// 	"scope": [
-		// 		"meta.directive.vue punctuation",
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#4ff2f8"
-		// 	}
-		// },
-		// {
-		// 	"name": "Vue :Props", // DOSTS OF VUE PROPS DE TEMPLATE .VUE -> Ya no se usa,  evaluar para deprecated
-		// 	"scope": [
-		// 		"entity.other.attribute - name.html", //atributos excepto nombres de atributos html
-		// 		"meta.directive.vue",
-		// 		// "text.html.vue-html"
-		// 	],
-		// 	"settings": {
-		// 		// "foreground": "#4ff2f8"
-		// 		"foreground": "#c32cff"
-		// 	}
-		// },
-		{
-			"name": "Components Vue", // ESTA ES LA CLAVE PARA MODIFICAR EL COMPONENTE
-			"scope": [
-				// "text.html.vue-html", // Texto dentro del componente
-				"meta.tag.other.html text.html.vue",
-				// "entity.name.tag.style.html", //Colorea tag <style> de single file .vue
-				"entity.name.tag.other.html", //Este sirve  solo cuando cierran el componente como en react <comp />
-				// "entity.name.tag.template.html" // Colorea tag <template>  de single file .vue
-			],
-			"settings": {
-				"foreground": "#c792eb"
-			}
-		},
-		{
-			"name": "Curly double brackets VUE", // {{}}
-			"scope": [
-				// "entity.other.attribute-name", 
-				// "punctuation.definition.string.begin.html"
-				// "punctuation.definition.string.end.html"
-				// "string.quoted.double.html"
-				// "punctuation.separator.key-value.html"
-				// "source.vue#vue-interpolations",
-				// "string.unquoted.html"
-				//==========================================
-				"expression.embedded.vue", // PARA LAS LLAVES EN VUE
-				// "entity.other.attribute-name.html", // Para el nombre de atributos html y vue - no react
-				// "text.html.vue-html"
-			],
-			"settings": {
-				"foreground": "#ff4579"
-			}
-		},
-		{
-			"name": "comillas HTML y VUE", // comillas dobles y simples HTML y VUE  + template string en vue
-			"scope": [
-				"punctuation.definition.string.begin.html",
-				"punctuation.definition.string.end.html"
-			],
-			"settings": {
-				"foreground": "#6af699"
-			}
-		},
 		{
 			"name": "TypeScript Classes",
 			"scope": "meta.class entity.name.type.class.tsx",
@@ -2055,6 +1992,101 @@
 			"settings": {
 				"foreground": "#ff4579"
 			}
-		}
+		},
+		// Configuration of VUE
+		{
+			"name": "Components Vue", // ESTA ES LA CLAVE PARA MODIFICAR EL COMPONENTE
+			"scope": [
+				// "text.html.vue-html", // Texto dentro del componente
+				"meta.tag.other.html text.html.vue",
+				// "entity.name.tag.style.html", //Colorea tag <style> de single file .vue
+				"entity.name.tag.other.html", //Este sirve  solo cuando cierran el componente como en react <comp />
+				// "entity.name.tag.template.html" // Colorea tag <template>  de single file .vue
+			],
+			"settings": {
+				"foreground": "#c792eb"
+			}
+		},
+		{
+			"name": "Curly double brackets VUE", // {{}}, []
+			"scope": [
+				"expression.embedded.vue", // LLAVES EN VUE
+				"source.vue text.html.vue-html expression.embedded.vue meta.array.literal.js meta.brace.square.js", // Brackets vue
+			],
+			"settings": {
+				"foreground": "#ff4579"
+			}
+		},
+		{
+			"name": "Directive param brackets VUE", // [] -> :result="result[0]" 
+			"scope": [
+				"source.vue text.html.vue-html meta.tag.other.html meta.directive.vue source.directive.vue meta.array.literal.js meta.brace.square.js", // Brackets array vue in parameter of directive vue
+				"source.vue text.html.vue-html meta.tag.other.html meta.directive.vue source.directive.vue meta.objectliteral.js punctuation.definition.block.js", // Brackets object vue in parameter of directive vue
+
+			],
+			"settings": {
+				"foreground": "#ff4579"
+			}
+		},
+		{
+			"name": "comillas HTML y VUE", // comillas dobles y simples HTML y VUE  + template string en vue
+			"scope": [
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html"
+			],
+			"settings": {
+				"foreground": "#6af699"
+			}
+		},
+		{
+			"name": "Properties of VUE of VETUR", // properties of VUE
+			"scope": [
+				// "expression.embedded.vue", // doble llaves d vue
+				// "meta.directive.vue", // @, =, :,
+				// "text.html.vue-html", // texto dentro de las tags
+				// "meta.attribute-with-value.id.html", // simbolo de = en in id dentro de un tag
+				// "entity.other.attribute-name.html", // atributos y directivas html y vue	
+				// "string.quoted.single.html", // string dentor de comillas simples name='fdsfds'
+				// "string.quoted.double.html", // sting en comillas dobles html y vue name="lol"
+				// "constant.character.entity.html", // constantes del tipo: &#58;
+				// "punctuation.definition.entity.html" // ampersan y pnto y coma de : &#58;
+				// "invalid.illegal.bad-ampersand.html",// solo ampersand &
+				// "entity.name.tag.script.html" // tag script html vue
+				// "entity.name.tag.style.html" // tag style vue html
+				// "entity.name.tag.template.html" // template tag
+				// "punctuation.definition.generic.end.html expression.embedded.vue text.html.vue-html source.vue",
+				// "punctuation.accessor", // puntos en JS
+				// "source.vue text.html.vue-html meta.tag.other.html meta.directive.vue source.directive.vue meta.brace.round.js" //parentesis de las funciones ejecutadas dentro de template de vue como : v-on:do-search="searchSuperHero($event)"
+				"source.vue text.html.vue-html meta.tag.other.html meta.directive.vue source.directive.vue variable.other.readwrite.js", // parametros como vairables a directivas vue
+				"source.vue text.html.vue-html meta.tag.other.html meta.directive.vue source.directive.vue variable.other.object.js", //parametro objetos a directivas vue
+				"source.vue text.html.vue-html meta.tag.inline.any.html meta.directive.vue source.directive.vue variable.other.readwrite.js", // parametro de v-model
+				"source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue source.directive.vue variable.other.readwrite.js", // parametro evaluacion v-if
+			],
+			"settings": {
+				"foreground": "#dfe6fd"
+			}
+		},
+		{
+			"name": "Strings, Variables, Object VUE into Interpolation", // interpolation
+			"scope": [
+				"source.vue text.html.vue-html expression.embedded.vue variable.other.readwrite.js", // string dentro de la interpolacion
+				"source.vue text.html.vue-html expression.embedded.vue variable.other.object.js", // objeto dentro de la interpolacion
+			],
+			"settings": {
+				"foreground": "#ffffff",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Objects, Object properties VUE into Interpolation", // interpolation
+			"scope": [
+				"source.vue text.html.vue-html expression.embedded.vue variable.other.object.property", // parametro de objeto dentro de la interpolacion
+				"source.vue text.html.vue-html expression.embedded.vue variable.other.property.js", // variable como propiedad de objeto
+			],
+			"settings": {
+				"foreground": "#ff4579",
+				"fontStyle": "italic"
+			}
+		},
 	]
 }
