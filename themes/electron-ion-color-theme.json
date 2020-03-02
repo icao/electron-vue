@@ -9,7 +9,7 @@
     // "activityBar.background": "#0b0f10", // propuesta
     "activityBar.border": "#111111",
     "activityBar.dropBackground": "#26A5FF53",
-    "activityBar.foreground": "#c0c6d3",
+    "activityBar.foreground": "#c0c6d3", // color de iconos de la barra de menu (source, extensions, etc)
     "activityBarBadge.background": "#26A5FF",
     "activityBarBadge.foreground": "#f8fafd",
     "badge.background": "#26A5FF",
@@ -28,15 +28,15 @@
     "dropdown.border": "#181a1f",
     "dropdown.foreground": "#f8fafdcc",
     "editor.background": "#181919",
-    "editor.findMatchBackground": "#26A5FF25",
+    "editor.findMatchBackground": "#26A5FF37",
     "editor.findMatchBorder": "#26A5FF",
-    "editor.findMatchHighlightBackground": "#26A5FF25",
+    "editor.findMatchHighlightBackground": "#26A5FF37",
     "editor.foreground": "#bac7e4",
-    "editor.hoverHighlightBackground": "#26A5FF25",
+    "editor.hoverHighlightBackground": "#26A5FF37",
     "editor.inactiveSelectionBackground": "#67769630", // Seleccion de codigo Tab Inactiva
     // "editor.lineHighlightBackground": "#11111145", // HoveFocusr de linea actual
     "editor.lineHighlightBackground": "#67769645", // HoveFocusr de linea actual  TODO: ver que color se quedará
-    "editor.rangeHighlightBackground": "#26A5FF25",
+    "editor.rangeHighlightBackground": "#26A5FF37",
     "editor.selectionBackground": "#67769660", // Seleccion de codigo
     "editor.selectionHighlightBackground": "#11111145",
     "editor.selectionHighlightBorder": "#11111145",
