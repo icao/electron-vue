@@ -28,15 +28,16 @@
     "dropdown.border": "#181a1f",
     "dropdown.foreground": "#f8fafdcc",
     "editor.background": "#181919",
-    "editor.findMatchBackground": "#26A5FF22",
+    "editor.findMatchBackground": "#26A5FF25",
     "editor.findMatchBorder": "#26A5FF",
-    "editor.findMatchHighlightBackground": "#26A5FF22",
+    "editor.findMatchHighlightBackground": "#26A5FF25",
     "editor.foreground": "#bac7e4",
-    "editor.hoverHighlightBackground": "#26A5FF22",
-    "editor.inactiveSelectionBackground": "#3a3d41",
-    "editor.lineHighlightBackground": "#11111145",
-    "editor.rangeHighlightBackground": "#26A5FF22",
-    "editor.selectionBackground": "#67769660",
+    "editor.hoverHighlightBackground": "#26A5FF25",
+    "editor.inactiveSelectionBackground": "#67769630", // Seleccion de codigo Tab Inactiva
+    // "editor.lineHighlightBackground": "#11111145", // HoveFocusr de linea actual
+    "editor.lineHighlightBackground": "#67769645", // HoveFocusr de linea actual  TODO: ver que color se quedará
+    "editor.rangeHighlightBackground": "#26A5FF25",
+    "editor.selectionBackground": "#67769660", // Seleccion de codigo
     "editor.selectionHighlightBackground": "#11111145",
     "editor.selectionHighlightBorder": "#11111145",
     "editor.wordHighlightBackground": "#484e5b",
