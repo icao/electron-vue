@@ -24,15 +24,15 @@
     "diffEditor.insertedTextBorder": "#181919",
     "diffEditor.removedTextBackground": "#ff457922", //Texto eliminado GIT
     "diffEditor.removedTextBorder": "#181919",
-    "dropdown.background": "#1d1f23",
-    "dropdown.border": "#181f19",
+    "dropdown.background": "#181919", // Dropdown terminal shell
+    "dropdown.border": "#d1dfff0e",
     "dropdown.foreground": "#f8fafdcc",
-    "editor.background": "#181919",
+    "editor.background": "#181919", // Background del editor(fondo de codigo)
     "editor.findMatchBackground": "#26A5FF37",
     "editor.findMatchBorder": "#26A5FF",
     "editor.findMatchHighlightBackground": "#26A5FF37",
     "editor.foreground": "#bac7e4",
-    "editor.hoverHighlightBackground": "#26A5FF37",
+    "editor.hoverHighlightBackground": "#26A5FF37", // TODO: SEGUIR AQUI
     "editor.inactiveSelectionBackground": "#67769630", // Seleccion de codigo Tab Inactiva
     // "editor.lineHighlightBackground": "#11111145", // HoveFocusr de linea actual
     "editor.lineHighlightBackground": "#67769645", // HoveFocusr de linea actual  TODO: ver que color se quedará
