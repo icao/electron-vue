@@ -5,8 +5,6 @@
     "activityBar.activeBorder": "#26A5FF",
     // "activityBar.activeBackground": "#26A5FF",
     "activityBar.background": "#111111",
-    // "activityBar.background": "#111111",
-    // "activityBar.background": "#0b0f10", // propuesta
     "activityBar.border": "#111111",
     "activityBar.dropBackground": "#26A5FF53",
     "activityBar.foreground": "#d1dfff", // color de iconos de la barra de menu (source, extensions, etc)
@@ -32,19 +30,19 @@
     "editor.findMatchBorder": "#26A5FF",
     "editor.findMatchHighlightBackground": "#26A5FF37",
     "editor.foreground": "#bac7e4",
-    "editor.hoverHighlightBackground": "#26A5FF37", // TODO: SEGUIR AQUI
+    "editor.hoverHighlightBackground": "#26A5FF37",
     "editor.inactiveSelectionBackground": "#67769630", // Seleccion de codigo Tab Inactiva
-    // "editor.lineHighlightBackground": "#11111145", // HoveFocusr de linea actual
-    "editor.lineHighlightBackground": "#67769645", // HoveFocusr de linea actual  TODO: ver que color se quedará
-    "editor.rangeHighlightBackground": "#26A5FF37",
+    "editor.lineHighlightBackground": "#67769645", // Hover/Focus de linea actual
+    "editor.rangeHighlightBackground": "#26A5FF37", //Fondeode linea encontrada
     "editor.selectionBackground": "#67769660", // Seleccion de codigo
-    "editor.selectionHighlightBackground": "#11111145",
-    "editor.selectionHighlightBorder": "#11111145",
-    "editor.wordHighlightBackground": "#484e5b",
-    "editor.wordHighlightBorder": "#3a3e44",
-    "editor.wordHighlightStrongBackground": "#bac7e426",
-    "editor.wordHighlightStrongBorder": "#3a3e44",
-    "editorBracketMatch.background": "#515a6b66",
+    "editor.selectionHighlightBackground": "#26A5FF37", //Selecciones que coinciden al hacerdoble click en la palabra
+    "editor.selectionHighlightBorder": "#26A5FFf2",
+    "editor.wordHighlightBackground": "#26A5FF37", // Seleccion donde se usa un argumento o parametro
+    "editor.wordHighlightBorder": "#26A5FFf2",
+    "editor.wordHighlightStrongBackground": "#677696b9", // Color que toma el parametro declarado en la funcion al usar el argumento
+    "editor.wordHighlightStrongBorder": "#677696",
+    "editorBracketMatch.border": "#9eff03", // TODO: continuar aqui
+    "editorBracketMatch.background": "#9eff03",
     "editorCodeLens.foreground": "#26A5FFb4",
     "editorCursor.background": "#ffffffc9",
     "editorCursor.foreground": "#26A5FF",
