@@ -9,23 +9,23 @@
     // "activityBar.background": "#0b0f10", // propuesta
     "activityBar.border": "#111111",
     "activityBar.dropBackground": "#26A5FF53",
-    "activityBar.foreground": "#c0c6d3", // color de iconos de la barra de menu (source, extensions, etc)
+    "activityBar.foreground": "#d1dfff", // color de iconos de la barra de menu (source, extensions, etc)
     "activityBarBadge.background": "#26A5FF",
-    "activityBarBadge.foreground": "#f8fafd",
+    "activityBarBadge.foreground": "#f8fafd", // base para color claro
     "badge.background": "#26A5FF",
     "badge.foreground": "#f8fafd",
     "button.background": "#26A5FFcc",
-    "button.foreground": "#f8fafdcc",
+    "button.foreground": "#f8fafd",
     "button.hoverBackground": "#26A5FF",
-    "debugExceptionWidget.background": "#111111",
-    "debugExceptionWidget.border": "#bac7e4",
-    "debugToolBar.background": "#111111",
-    "diffEditor.insertedTextBackground": "#6af69911",
-    "diffEditor.insertedTextBorder": "#ffffff00",
-    "diffEditor.removedTextBackground": "#ff457922",
-    "diffEditor.removedTextBorder": "#ffffff00",
+    "debugExceptionWidget.background": "#ff457a4f",
+    "debugExceptionWidget.border": "#ff457a",
+    "debugToolBar.background": "#111111", // Barra de controles debugger
+    "diffEditor.insertedTextBackground": "#6af69922", // Text de GIT Agregado
+    "diffEditor.insertedTextBorder": "#181919",
+    "diffEditor.removedTextBackground": "#ff457922", //Texto eliminado GIT
+    "diffEditor.removedTextBorder": "#181919",
     "dropdown.background": "#1d1f23",
-    "dropdown.border": "#181a1f",
+    "dropdown.border": "#181f19",
     "dropdown.foreground": "#f8fafdcc",
     "editor.background": "#181919",
     "editor.findMatchBackground": "#26A5FF37",
@@ -64,7 +64,7 @@
     "editorIndentGuide.activeBackground": "#ffffff10",
     "editorIndentGuide.background": "#ffffff06",
     "editorLineNumber.activeForeground": "#6ce41c", // numero de linea activa
-    "editorLineNumber.foreground": "#454a52", // numero de linea
+    "editorLineNumber.foreground": "#d1dfff3a", // numero de linea
     "editorMarkerNavigation.background": "#141414",
     "editorMarkerNavigationError.background": "#ff4579",
     "editorMarkerNavigationWarning.background": "#ffbf7a",
@@ -152,7 +152,7 @@
     "sideBarSectionHeader.foreground": "#99a3b8",
     "sideBarTitle.foreground": "#99a3b8",
     "statusBar.background": "#141414",
-    // "statusBar.border": "#111111",
+    "statusBar.border": "#111111",
     "statusBar.debuggingBackground": "#ff4579",
     "statusBar.debuggingBorder": "#ff4579",
     "statusBar.debuggingForeground": "#ffffff",
@@ -222,7 +222,7 @@
     //"editorLink.activeForeground": "#4e94ce",
     //"editorMarkerNavigationInfo.background": "#008000",
     //"editorOverviewRuler.addedForeground": "#007acc99",
-    "editorOverviewRuler.border": "#ffffff00"
+    "editorOverviewRuler.border": "#8cff0900", // Sombra Scroll Bar
     // "editorOverviewRuler.bracketMatchForeground": "#a0a0a0",
     //"editorOverviewRuler.deletedForeground": "#007acc99",
     //"editorOverviewRuler.errorForeground": "#ff1212b3",
@@ -298,8 +298,8 @@
     //"textBlockQuote.background": "#7f7f7f1a",
     //"textBlockQuote.border": "#007acc80",
     //"textCodeBlock.background": "#0a0a0a66",
-    // ,"textLink.activeForeground": "#3794ff",
-    // "textLink.foreground": "#3794ff",
+    "textLink.activeForeground": "#26A5FF",
+    "textLink.foreground": "#26A5FF"
     //"textPreformat.foreground": "#d7ba7d",
     //"textSeparator.foreground": "#ffffff2e"
   },
