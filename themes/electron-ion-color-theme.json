@@ -35,33 +35,33 @@
     "editor.lineHighlightBackground": "#67769645", // Hover/Focus de linea actual
     "editor.rangeHighlightBackground": "#26A5FF37", //Fondeode linea encontrada
     "editor.selectionBackground": "#67769660", // Seleccion de codigo
-    "editor.selectionHighlightBackground": "#26A5FF37", //Selecciones que coinciden al hacerdoble click en la palabra
+    "editor.selectionHighlightBackground": "#26A5FF37", //Selecciones que coinciden al hacer doble click en la palabra
     "editor.selectionHighlightBorder": "#26A5FFf2",
     "editor.wordHighlightBackground": "#26A5FF37", // Seleccion donde se usa un argumento o parametro
     "editor.wordHighlightBorder": "#26A5FFf2",
     "editor.wordHighlightStrongBackground": "#677696b9", // Color que toma el parametro declarado en la funcion al usar el argumento
     "editor.wordHighlightStrongBorder": "#677696",
-    "editorBracketMatch.border": "#9eff03", // TODO: continuar aqui
-    "editorBracketMatch.background": "#9eff03",
-    "editorCodeLens.foreground": "#26A5FFb4",
-    "editorCursor.background": "#ffffffc9",
-    "editorCursor.foreground": "#26A5FF",
+    "editorBracketMatch.border": "#9eff03", // TODO: no se que haga
+    "editorBracketMatch.background": "#9eff03", // TODO: no se que haga
+    "editorCodeLens.foreground": "#26A5FF",  //Leyenda de git code lents
+    "editorCursor.background": "#bac7e4", // Color de letra encuelto por el cursor block o line
+    "editorCursor.foreground": "#26A5FF", // Color del cursor
     "editorError.foreground": "#ff4579",
-    "editorGroup.border": "#181a1f",
+    "editorGroup.border": "#d1dfff0e",
     "editorGroup.dropBackground": "#26A5FF53",
     "editorGroup.emptyBackground": "#181919",
-    "editorGroupHeader.noTabsBackground": "#18191b",
-    "editorGroupHeader.tabsBackground": "#141414",
-    "editorGroupHeader.tabsBorder": "#18191900",
-    "editorGutter.addedBackground": "#26A5FFcc",
-    "editorGutter.background": "#181919",
-    "editorGutter.deletedBackground": "#ff4579",
-    "editorGutter.modifiedBackground": "#ffbf7acc",
-    "editorHoverWidget.background": "#141414",
-    "editorHoverWidget.border": "#181a1f",
-    "editorIndentGuide.activeBackground": "#ffffff10",
-    "editorIndentGuide.background": "#ffffff06",
-    "editorLineNumber.activeForeground": "#6ce41c", // numero de linea activa
+    "editorGroupHeader.noTabsBackground": "#181919", // Colod de fondo cuando los tabs estan inhabilitados
+    "editorGroupHeader.tabsBackground": "#141414", // Fondeo de grupo de tabs
+    "editorGroupHeader.tabsBorder": "#18191900", // Linea dividora de el bradcum
+    "editorGutter.addedBackground": "#6af699cc", // Barra lateral(en los numeros) de las lineas agregadas en el codigo actual
+    "editorGutter.background": "#181919", // Background de la barra de numeros
+    "editorGutter.deletedBackground": "#ff4579",  // Flecha que señala codigo eliminado
+    "editorGutter.modifiedBackground": "#ffbf7acc", // Barra lateral(en los numeros) de las ineas modificadas en el codigo actual
+    "editorHoverWidget.background": "#141414", // Color de fondo de popup de ayuda al mantener puntero en una palabra de codigo
+    "editorHoverWidget.border": "#26a5ff63",  // Color de borde de popup de sugerencia informativa
+    "editorIndentGuide.activeBackground": "#ffffff10", // Sangrias
+    "editorIndentGuide.background": "#ffffff06", // Sangria actual
+    "editorLineNumber.activeForeground": "#d1dfffab", // numero de linea activa
     "editorLineNumber.foreground": "#d1dfff3a", // numero de linea
     "editorMarkerNavigation.background": "#141414",
     "editorMarkerNavigationError.background": "#ff4579",
