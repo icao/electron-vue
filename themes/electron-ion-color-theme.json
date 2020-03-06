@@ -18,7 +18,7 @@
     "debugExceptionWidget.background": "#ff45794f",
     "debugExceptionWidget.border": "#ff4579",
     "debugToolBar.background": "#111111", // Barra de controles debugger
-    "diffEditor.insertedTextBackground": "#6af69936", // Text de GIT Agregado
+    "diffEditor.insertedTextBackground": "#6af69940", // Text de GIT Agregado
     "diffEditor.insertedTextBorder": "#181919",
     "diffEditor.removedTextBackground": "#ff457922", //Texto eliminado GIT
     "diffEditor.removedTextBorder": "#181919",
@@ -69,9 +69,9 @@
     // "editorOverviewRuler.commonContentForeground": "#05f711",
     // "editorOverviewRuler.currentContentForeground": "#05f711",
     // "editorOverviewRuler.incomingContentForeground": "#05f711",
-    "editorOverviewRuler.commonContentForeground": "#26A5FF",
-    "editorOverviewRuler.currentContentForeground": "#26A5FF",
-    "editorOverviewRuler.incomingContentForeground": "#26A5FF",
+    // "editorOverviewRuler.commonContentForeground": "#26A5FF",
+    // "editorOverviewRuler.currentContentForeground": "#26A5FF",
+    // "editorOverviewRuler.incomingContentForeground": "#26A5FF",
     "editorRuler.foreground": "#bac7e426",
     "editorSuggestWidget.background": "#141414",
     "editorSuggestWidget.border": "#181a1f",
@@ -87,7 +87,7 @@
     "extensionButton.prominentHoverBackground": "#26A5FF",
     "focusBorder": "#26A5FF",
     "foreground": "#99a3b8",
-    "gitDecoration.conflictingResourceForeground": "#fffa9ecc",
+    "gitDecoration.conflictingResourceForeground": "#facf5acc", // Indicador de conflicto en el arbol de archivos
     "gitDecoration.deletedResourceForeground": "#ff457990",
     "gitDecoration.ignoredResourceForeground": "#99a3b866",
     "gitDecoration.modifiedResourceForeground": "#e2c08d",
@@ -115,19 +115,19 @@
     "list.inactiveSelectionForeground": "#99a3b8",
     "list.invalidItemForeground": "#ff4579",
     "list.warningForeground": "#ffbf7a",
-    "merge.currentHeaderBackground": "#26a5ff56",
-    "merge.incomingHeaderBackground": "#6af69962",
-    "notificationLink.foreground": "#71f506", // TODO: PROAR CON ALGUNA NOTIFICACION
-    "notifications.background": "#111111",
-    "notifications.foreground": "#f8fafdcc",
-    "panel.background": "#141414",
-    "panel.border": "#1f1d18",
-    "panelTitle.activeBorder": "#26A5FF",
-    "panelTitle.activeForeground": "#f8fafd",
-    "panelTitle.inactiveForeground": "#99a3b8",
-    "peekView.border": "#141414",
+    "merge.currentHeaderBackground": "#26a5ff56", // Valores actuales en la rama de git
+    "merge.incomingHeaderBackground": "#6af69975", // Valores entrantes en el conflicto merge
+    "notificationLink.foreground": "#26A5FF", // TODO: PROAR CON ALGUNA NOTIFICACION CON LINK
+    "notifications.background": "#111111", // Fondo de norificaciones
+    "notifications.foreground": "#fdf8fdcc", // Color font de notificaciones
+    "panel.background": "#141414", // Encabezado del panel inferior
+    "panel.border": "#141414", //Color divisor de panel inferior 
+    "panelTitle.activeBorder": "#26A5FF", // Color de tab activo en el panel
+    "panelTitle.activeForeground": "#fdf8fd", // color de font del tab en el panel
+    "panelTitle.inactiveForeground": "#99a3b8", // Color de font del tab inactivo en el panel
+    "peekView.border": "#141414", // TODO: Seguir aqui - revisar la documentacion
     "peekViewEditor.background": "#111111",
-    "peekViewEditor.matchHighlightBackground": "#26A5FF33",
+    "peekViewEditor.matchHighlightBackground": "#aecee633",
     "peekViewResult.background": "#111111",
     "peekViewResult.fileForeground": "#99a3b8",
     "peekViewResult.lineForeground": "#99a3b8",
