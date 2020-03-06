@@ -15,21 +15,21 @@
     "button.background": "#26A5FFcc",
     "button.foreground": "#f8fafd",
     "button.hoverBackground": "#26A5FF",
-    "debugExceptionWidget.background": "#ff457a4f",
-    "debugExceptionWidget.border": "#ff457a",
+    "debugExceptionWidget.background": "#ff45794f",
+    "debugExceptionWidget.border": "#ff4579",
     "debugToolBar.background": "#111111", // Barra de controles debugger
-    "diffEditor.insertedTextBackground": "#6af69922", // Text de GIT Agregado
+    "diffEditor.insertedTextBackground": "#6af69936", // Text de GIT Agregado
     "diffEditor.insertedTextBorder": "#181919",
     "diffEditor.removedTextBackground": "#ff457922", //Texto eliminado GIT
     "diffEditor.removedTextBorder": "#181919",
     "dropdown.background": "#181919", // Dropdown terminal shell
     "dropdown.border": "#d1dfff0e",
-    "dropdown.foreground": "#f8fafdcc",
+    "dropdown.foreground": "#99a3b8", // color de font de los MENUS  del editor
     "editor.background": "#181919", // Background del editor(fondo de codigo)
     "editor.findMatchBackground": "#26A5FF37",
     "editor.findMatchBorder": "#26A5FF",
     "editor.findMatchHighlightBackground": "#26A5FF37",
-    "editor.foreground": "#bac7e4",
+    "editor.foreground": "#bac7e4", // Font de codigo
     "editor.hoverHighlightBackground": "#26A5FF37",
     "editor.inactiveSelectionBackground": "#67769630", // Seleccion de codigo Tab Inactiva
     "editor.lineHighlightBackground": "#67769645", // Hover/Focus de linea actual
@@ -43,8 +43,8 @@
     "editor.wordHighlightStrongBorder": "#677696",
     "editorBracketMatch.border": "#9eff03", // TODO: no se que haga
     "editorBracketMatch.background": "#9eff03", // TODO: no se que haga
-    "editorCodeLens.foreground": "#26A5FF",  //Leyenda de git code lents
-    "editorCursor.background": "#bac7e4", // Color de letra encuelto por el cursor block o line
+    "editorCodeLens.foreground": "#26A5FF", //Leyenda de git code lents
+    "editorCursor.background": "#bac7e4", // Color de letra envuelto por el cursor block o line
     "editorCursor.foreground": "#26A5FF", // Color del cursor
     "editorError.foreground": "#ff4579",
     "editorGroup.border": "#d1dfff0e",
@@ -55,17 +55,20 @@
     "editorGroupHeader.tabsBorder": "#18191900", // Linea dividora de el bradcum
     "editorGutter.addedBackground": "#6af699cc", // Barra lateral(en los numeros) de las lineas agregadas en el codigo actual
     "editorGutter.background": "#181919", // Background de la barra de numeros
-    "editorGutter.deletedBackground": "#ff4579",  // Flecha que señala codigo eliminado
+    "editorGutter.deletedBackground": "#ff4579", // Flecha que señala codigo eliminado
     "editorGutter.modifiedBackground": "#ffbf7acc", // Barra lateral(en los numeros) de las ineas modificadas en el codigo actual
     "editorHoverWidget.background": "#141414", // Color de fondo de popup de ayuda al mantener puntero en una palabra de codigo
-    "editorHoverWidget.border": "#26a5ff63",  // Color de borde de popup de sugerencia informativa
+    "editorHoverWidget.border": "#26a5ff63", // Color de borde de popup de sugerencia informativa
     "editorIndentGuide.activeBackground": "#ffffff10", // Sangrias
     "editorIndentGuide.background": "#ffffff06", // Sangria actual
     "editorLineNumber.activeForeground": "#d1dfffab", // numero de linea activa
     "editorLineNumber.foreground": "#d1dfff3a", // numero de linea
-    "editorMarkerNavigation.background": "#141414",
-    "editorMarkerNavigationError.background": "#ff4579",
-    "editorMarkerNavigationWarning.background": "#ffbf7a",
+    "editorMarkerNavigation.background": "#141414", // Fondo de errores de los sog dos:
+    "editorMarkerNavigationError.background": "#ff4579", // Bordes de errores en el editor al teclear "go to next error,warning,info"
+    "editorMarkerNavigationWarning.background": "#facf5a",// Bordes de errores en el editor al teclear "go to next error,warning,info"
+    // "editorOverviewRuler.commonContentForeground": "#05f711",
+    // "editorOverviewRuler.currentContentForeground": "#05f711",
+    // "editorOverviewRuler.incomingContentForeground": "#05f711",
     "editorOverviewRuler.commonContentForeground": "#26A5FF",
     "editorOverviewRuler.currentContentForeground": "#26A5FF",
     "editorOverviewRuler.incomingContentForeground": "#26A5FF",
@@ -75,7 +78,7 @@
     "editorSuggestWidget.foreground": "#99a3b8",
     "editorSuggestWidget.highlightForeground": "#f8fafd",
     "editorSuggestWidget.selectedBackground": "#2c313a",
-    "editorWarning.foreground": "#ffbf7a",
+    "editorWarning.foreground": "#facf5a",
     "editorWidget.background": "#141414",
     "editorWidget.border": "#111111",
     "errorForeground": "#ff4579",
@@ -97,30 +100,30 @@
     "inputValidation.errorBackground": "#ff4579f2",
     "inputValidation.errorBorder": "#ff4579",
     "inputValidation.infoBackground": "#26A5FFf2",
-    "inputValidation.infoBorder": "#26A5FF",
-    "inputValidation.warningBackground": "#fff878f2",
-    "inputValidation.warningBorder": "#fff878",
-    "list.activeSelectionBackground": "#212836",
-    "list.activeSelectionForeground": "#c0c6d3",
-    "list.dropBackground": "#212836",
-    "list.focusBackground": "#212836",
-    "list.focusForeground": "#c0c6d3",
-    "list.highlightForeground": "#c0c6d3",
-    "list.hoverBackground": "#212836",
-    "list.hoverForeground": "#c0c6d3",
-    "list.inactiveSelectionBackground": "#212836",
+    "inputValidation.infoBorder": "#26A5FF",  // TODO:  LIMITE INFERIOR NO REVISADO
+    "inputValidation.warningBackground": "#181919", // Cuadro de sugerencia al hacer busqueda general desde la barra
+    "inputValidation.warningBorder": "#ffbf7acc",
+    "list.activeSelectionBackground": "#67769645", // Seleccion(focus) al hacer click en el arbol de archivos (sidebar)
+    "list.activeSelectionForeground": "#26A5FF",  // Font seleccion(focus) de archivo actual
+    "list.dropBackground": "#67769645", // Background al arrastrar archivo a nuevo directorio
+    "list.focusBackground": "#67769645",
+    "list.focusForeground": "#f8fafd",
+    "list.highlightForeground": "#f8fafd",
+    "list.hoverBackground": "#67769645", // Background al hacer hover en cualquier lista
+    "list.hoverForeground": "#f8fafd",
+    "list.inactiveSelectionBackground": "#67769630",
     "list.inactiveSelectionForeground": "#99a3b8",
-    "list.invalidItemForeground": "#ca5569",
+    "list.invalidItemForeground": "#ff4579",
     "list.warningForeground": "#ffbf7a",
-    "merge.currentHeaderBackground": "#99a3b8",
-    "merge.incomingHeaderBackground": "#26A5FF44",
-    "notificationLink.foreground": "#4ff2f8",
+    "merge.currentHeaderBackground": "#26a5ff56",
+    "merge.incomingHeaderBackground": "#6af69962",
+    "notificationLink.foreground": "#71f506", // TODO: PROAR CON ALGUNA NOTIFICACION
     "notifications.background": "#111111",
     "notifications.foreground": "#f8fafdcc",
     "panel.background": "#141414",
     "panel.border": "#1f1d18",
     "panelTitle.activeBorder": "#26A5FF",
-    "panelTitle.activeForeground": "#c0c6d3",
+    "panelTitle.activeForeground": "#f8fafd",
     "panelTitle.inactiveForeground": "#99a3b8",
     "peekView.border": "#141414",
     "peekViewEditor.background": "#111111",
@@ -130,7 +133,7 @@
     "peekViewResult.lineForeground": "#99a3b8",
     "peekViewResult.matchHighlightBackground": "#f8fafdcc",
     "peekViewResult.selectionBackground": "#ffffff20",
-    "peekViewResult.selectionForeground": "#c0c6d3",
+    "peekViewResult.selectionForeground": "#f8fafd",
     "peekViewTitle.background": "#111111",
     "peekViewTitleDescription.foreground": "#99a3b8",
     "peekViewTitleLabel.foreground": "#99a3b8",
@@ -198,7 +201,7 @@
     "widget.shadow": "#11111150",
     "window.activeBorder": "#26A5FF",
     "window.inactiveBorder": "#26A5FF60",
-    //"activityBar.inactiveForeground": "#c0c6d399",
+    //"activityBar.inactiveForeground": "#f8fafd99",
     //"breadcrumb.activeSelectionForeground": "#adb5c6",
     // "breadcrumb.background": "#181919",
     //"breadcrumb.focusForeground": "#adb5c6",
@@ -253,7 +256,7 @@
     //"menu.background": "#1d1f23",
     //"menu.foreground": "#f8fafdcc",
     //"menu.selectionBackground": "#212836",
-    //"menu.selectionForeground": "#c0c6d3",
+    //"menu.selectionForeground": "#f8fafd",
     //"menu.separatorBackground": "#bbbbbb",
     //"menubar.selectionBackground": "#ffffff1a",
     //"menubar.selectionForeground": "#9da5b4",
