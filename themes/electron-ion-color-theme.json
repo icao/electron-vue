@@ -18,6 +18,21 @@
     "debugExceptionWidget.background": "#ff45794f",
     "debugExceptionWidget.border": "#ff4579",
     "debugToolBar.background": "#111111", // Barra de controles debugger
+    //"debugIcon.breakpointCurrentStackframeForeground": "#ffcc00",
+    //"debugIcon.breakpointDisabledForeground": "#848484",
+    "debugIcon.breakpointForeground": "#ff4579",
+    //"debugIcon.breakpointStackframeForeground": "#89d185",
+    //"debugIcon.breakpointUnverifiedForeground": "#848484",
+    //"debugIcon.continueForeground": "#75beff",
+    //"debugIcon.disconnectForeground": "#f48771",
+    //"debugIcon.pauseForeground": "#75beff",
+    //"debugIcon.restartForeground": "#89d185",
+    //"debugIcon.startForeground": "#89d185",
+    //"debugIcon.stepBackForeground": "#75beff",
+    //"debugIcon.stepIntoForeground": "#75beff",
+    //"debugIcon.stepOutForeground": "#75beff",
+    //"debugIcon.stepOverForeground": "#75beff",
+    //"debugIcon.stopForeground": "#f48771",
     "diffEditor.insertedTextBackground": "#6af69921", // Text de GIT Agregado
     "diffEditor.insertedTextBorder": "#181919",
     "diffEditor.removedTextBackground": "#ff457922", //Texto eliminado GIT
@@ -41,8 +56,8 @@
     "editor.wordHighlightBorder": "#26a5ff54",
     "editor.wordHighlightStrongBackground": "#26a5ff62", // Color que toma el parametro declarado en la funcion al usar el argumento
     "editor.wordHighlightStrongBorder": "#26A5FFf2",
-    "editorBracketMatch.border": "#9eff03", // TODO: no se que haga
-    "editorBracketMatch.background": "#9eff03", // TODO: no se que haga
+    // "editorBracketMatch.border": "#9eff03", // TODO: no se que haga
+    // "editorBracketMatch.background": "#9eff03", // TODO: no se que haga
     "editorCodeLens.foreground": "#26A5FF", //Leyenda de git code lents
     "editorCursor.background": "#bac7e4", // Color de letra envuelto por el cursor block o line
     "editorCursor.foreground": "#26A5FF", // Color del cursor
@@ -67,7 +82,7 @@
     "editorMarkerNavigationError.background": "#ff4579", // Bordes de errores en el editor al teclear "go to next error,warning,info"
     "editorMarkerNavigationWarning.background": "#facf5a", // Bordes de errores en el editor al teclear "go to next error,warning,info"
     // "editorOverviewRuler.addedForeground": "#dc06f0",  // Su funcion la hace: "editorGutter.addedBackground"
-    "editorOverviewRuler.border": "#8cff0900", // Sombra Scroll Bar
+    "editorOverviewRuler.border": "#181919", // Sombra Scroll Bar
     // "editorOverviewRuler.bracketMatchForeground": "#ff01f2", // Señalamiento en la scrollbar (abrir y cerrar llaves)
     "editorOverviewRuler.deletedForeground": "#ff4579", // Señalamiento en la scrollbar(eliminar linea)
     "editorOverviewRuler.errorForeground": "#ff4579", // Señalamiento en la scrollbar (error en la linea)
@@ -82,7 +97,7 @@
     // "editorOverviewRuler.commonContentForeground": "#26A5FF",
     // "editorOverviewRuler.currentContentForeground": "#26A5FF",
     // "editorOverviewRuler.incomingContentForeground": "#26A5FF",
-    "editorRuler.foreground": "#32f801f5",
+    // "editorRuler.foreground": "#32f801f5", // TODO: En teoria es el color de los scrollbars por default
     "editorSuggestWidget.background": "#141414", // Fondo de intelisense
     "editorSuggestWidget.border": "#d1dfff0e", // Borde de cuadro de intelisense
     "editorSuggestWidget.foreground": "#99a3b8", // Font color de lista de intelisense
@@ -129,7 +144,7 @@
     "list.warningForeground": "#facf5a", // Color de font en lista del arbol (elementos con advertencia)
     "merge.currentHeaderBackground": "#26a5ff56", // Valores actuales en la rama de git
     "merge.incomingHeaderBackground": "#6af69975", // Valores entrantes en el conflicto merge
-    "notificationLink.foreground": "#33eb05", // TODO: PROAR CON ALGUNA NOTIFICACION CON LINK
+    "notificationLink.foreground": "#33eb05", // TODO: PROBAR CON ALGUNA NOTIFICACION CON LINK
     "notifications.background": "#111111", // Fondo de norificaciones
     "notifications.foreground": "#fdf8fdcc", // Color font de notificaciones
     "panel.background": "#141414", // Encabezado del panel inferior
