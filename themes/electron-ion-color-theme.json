@@ -18,21 +18,21 @@
     "debugExceptionWidget.background": "#ff45794f",
     "debugExceptionWidget.border": "#ff4579",
     "debugToolBar.background": "#111111", // Barra de controles debugger
-    //"debugIcon.breakpointCurrentStackframeForeground": "#ffcc00",
-    //"debugIcon.breakpointDisabledForeground": "#848484",
+    "debugIcon.breakpointCurrentStackframeForeground": "#ffcc00",
+    "debugIcon.breakpointDisabledForeground": "#d1dfff3a",
     "debugIcon.breakpointForeground": "#ff4579",
-    //"debugIcon.breakpointStackframeForeground": "#89d185",
-    //"debugIcon.breakpointUnverifiedForeground": "#848484",
-    //"debugIcon.continueForeground": "#75beff",
-    //"debugIcon.disconnectForeground": "#f48771",
-    //"debugIcon.pauseForeground": "#75beff",
-    //"debugIcon.restartForeground": "#89d185",
-    //"debugIcon.startForeground": "#89d185",
-    //"debugIcon.stepBackForeground": "#75beff",
-    //"debugIcon.stepIntoForeground": "#75beff",
-    //"debugIcon.stepOutForeground": "#75beff",
-    //"debugIcon.stepOverForeground": "#75beff",
-    //"debugIcon.stopForeground": "#f48771",
+    "debugIcon.breakpointStackframeForeground": "#37c756",
+    "debugIcon.breakpointUnverifiedForeground": "#848484",
+    "debugIcon.continueForeground": "#26A5FF",
+    "debugIcon.disconnectForeground": "#ff4579",
+    "debugIcon.pauseForeground": "#26A5FF",
+    "debugIcon.restartForeground": "#37c756",
+    "debugIcon.startForeground": "#37c756",
+    "debugIcon.stepBackForeground": "#26A5FF",
+    "debugIcon.stepIntoForeground": "#26A5FF",
+    "debugIcon.stepOutForeground": "#26A5FF",
+    "debugIcon.stepOverForeground": "#26A5FF",
+    "debugIcon.stopForeground": "#ff4579",
     "diffEditor.insertedTextBackground": "#6af69921", // Text de GIT Agregado
     "diffEditor.insertedTextBorder": "#181919",
     "diffEditor.removedTextBackground": "#ff457922", //Texto eliminado GIT
@@ -56,8 +56,8 @@
     "editor.wordHighlightBorder": "#26a5ff54",
     "editor.wordHighlightStrongBackground": "#26a5ff62", // Color que toma el parametro declarado en la funcion al usar el argumento
     "editor.wordHighlightStrongBorder": "#26A5FFf2",
-    // "editorBracketMatch.border": "#9eff03", // TODO: no se que haga
-    // "editorBracketMatch.background": "#9eff03", // TODO: no se que haga
+    "editorBracketMatch.border": "#26A5FFf2", // Colorea el borde de los corchetes coincidentes
+    "editorBracketMatch.background": "#181919", // Fondo de corchetes coincidentes
     "editorCodeLens.foreground": "#26A5FF", //Leyenda de git code lents
     "editorCursor.background": "#bac7e4", // Color de letra envuelto por el cursor block o line
     "editorCursor.foreground": "#26A5FF", // Color del cursor
@@ -78,7 +78,7 @@
     "editorIndentGuide.background": "#ffffff00", // Sangria actual
     "editorLineNumber.activeForeground": "#d1dfffab", // numero de linea activa
     "editorLineNumber.foreground": "#d1dfff3a", // numero de linea
-    "editorMarkerNavigation.background": "#141414", // Fondo de errores de los sog dos:
+    "editorMarkerNavigation.background": "#141414", // Fondo de errores de los sig dos:
     "editorMarkerNavigationError.background": "#ff4579", // Bordes de errores en el editor al teclear "go to next error,warning,info"
     "editorMarkerNavigationWarning.background": "#facf5a", // Bordes de errores en el editor al teclear "go to next error,warning,info"
     // "editorOverviewRuler.addedForeground": "#dc06f0",  // Su funcion la hace: "editorGutter.addedBackground"
@@ -97,7 +97,7 @@
     // "editorOverviewRuler.commonContentForeground": "#26A5FF",
     // "editorOverviewRuler.currentContentForeground": "#26A5FF",
     // "editorOverviewRuler.incomingContentForeground": "#26A5FF",
-    // "editorRuler.foreground": "#32f801f5", // TODO: En teoria es el color de los scrollbars por default
+    "editorRuler.foreground": "#67769645", // Lineas guias de limite de caracteres por linea
     "editorSuggestWidget.background": "#141414", // Fondo de intelisense
     "editorSuggestWidget.border": "#d1dfff0e", // Borde de cuadro de intelisense
     "editorSuggestWidget.foreground": "#99a3b8", // Font color de lista de intelisense
@@ -125,8 +125,8 @@
     "inputOption.activeBorder": "#26A5FF", // Input busqueda/remeplazar borde de iconos
     "inputValidation.errorBackground": "#181919", // Fondo de Mensaje de error de input busqueda/reemplazar
     "inputValidation.errorBorder": "#ff4579", // Borde de Mensaje de error de input busqueda/reemplazar
-    "inputValidation.infoBackground": "#181919", 
-    "inputValidation.infoBorder": "#26A5FF", 
+    "inputValidation.infoBackground": "#181919",
+    "inputValidation.infoBorder": "#26A5FF",
     "inputValidation.warningBackground": "#181919", // Cuadro de sugerencia al hacer busqueda general desde la barra
     "inputValidation.warningBorder": "#facf5a", // Color de advertencia de entrada en la busqueda general
     "list.activeSelectionBackground": "#67769645", // Seleccion(focus) al hacer click en el arbol de archivos (sidebar)
@@ -152,31 +152,30 @@
     "panelTitle.activeBorder": "#26A5FF", // Color de tab activo en el panel
     "panelTitle.activeForeground": "#fdf8fd", // color de font del tab en el panel
     "panelTitle.inactiveForeground": "#99a3b8", // Color de font del tab inactivo en el panel
-    "peekView.border": "#141414", // TODO: Seguir aqui - revisar la documentacion - CONTINUAR AQUI
-    "peekViewEditor.background": "#111111",
-    "peekViewEditor.matchHighlightBackground": "#aecee633",
+    "peekView.border": "#26A5FF", // Borde de ver definicion (accediendo desde menu contextual)
+    "peekViewEditor.background": "#141414", // Fondo de vista de inspeccion 
+    "peekViewEditor.matchHighlightBackground": "#26a5ff62",
     "peekViewResult.background": "#111111",
     "peekViewResult.fileForeground": "#99a3b8",
     "peekViewResult.lineForeground": "#99a3b8",
-    "peekViewResult.matchHighlightBackground": "#f8fafdcc",
-    "peekViewResult.selectionBackground": "#ffffff20",
+    "peekViewResult.matchHighlightBackground": "#26a5ff62", // MAtch de coincidencia en el sidebar derecho
+    "peekViewResult.selectionBackground": "#67769645",
     "peekViewResult.selectionForeground": "#f8fafd",
-    "peekViewTitle.background": "#111111",
-    "peekViewTitleDescription.foreground": "#99a3b8",
-    "peekViewTitleLabel.foreground": "#99a3b8",
-    "pickerGroup.border": "#201914",
-    "pickerGroup.foreground": "#26A5FF",
+    "peekViewTitle.background": "#141414", // Fondo de cabecera de vista de inspeccion
+    "peekViewTitleDescription.foreground": "#99a3b8", // Titulo acompañante de vista de inspeccion
+    "peekViewTitleLabel.foreground": "#f8fafd", // Titulo de vista de inspeccion(archivo)
+    "pickerGroup.border": "#26a5ff62", // Divisor de select (ctl+shift+p)
+    "pickerGroup.foreground": "#26A5FF", // Titulo de categorias de select
     "progressBar.background": "#26A5FF",
-    "scrollbar.shadow": "#111111",
-    "scrollbarSlider.activeBackground": "#747d9140",
-    // "scrollbarSlider.background": "#26A5FF60",// AQUI MODIFICAR BARRAS
-    "scrollbarSlider.background": "#4e566660",
-    "scrollbarSlider.hoverBackground": "#5a637580",
-    "selection.background": "#26A5FF80",
-    "sideBar.background": "#141414",
-    // "sideBar.border": "#172014",
-    "sideBar.foreground": "#99a3b8",
-    "sideBarSectionHeader.background": "#141414",
+    "scrollbar.shadow": "#111111", // Sombra en algunos encabezados que se refleja al resplazar el scroll
+    "scrollbarSlider.activeBackground": "#67769694",
+    "scrollbarSlider.background": "#67769645",
+    "scrollbarSlider.hoverBackground": "#67769657",
+    "selection.background": "#26A5FF37", // Seleccionar todo fuera del editor de codigo(ej. sidebar)
+    "sideBar.background": "#141414", // Sidebar
+    "sideBar.border": "#141414", // Linea divisora de sidebar y area de codigo
+    "sideBar.foreground": "#99a3b8", /// Color de fuente de todo el sidebar e iconos
+    "sideBarSectionHeader.background": "#141414", //TODO: Seguir aqui
     "sideBarSectionHeader.foreground": "#99a3b8",
     "sideBarTitle.foreground": "#99a3b8",
     "statusBar.background": "#141414",
@@ -199,7 +198,7 @@
     "tab.inactiveForeground": "#d5d9e299",
     "tab.unfocusedActiveBorder": "#26A5FF50",
     "tab.unfocusedActiveForeground": "#d5d9e2",
-    "tab.unfocusedInactiveForeground": "#99a3b8",
+    "tab.unfocusedInactiveForeground": "#99a3b8", // TODO: Finaliza aqui
     "terminal.ansiBlack": "#181919",
     "terminal.ansiBlue": "#26A5FF",
     "terminal.ansiBrightBlack": "#7992b4",
@@ -242,14 +241,12 @@
     //"editor.snippetTabstopHighlightBackground": "#7c7c7c4d",
     //"editor.stackFrameHighlightBackground": "#ffff0033",
     //"editorActiveLineNumber.foreground": "#c6c6c6",
-    // "editorBracketMatch.border": "#888888",
     //"editorGutter.commentRangeForeground": "#c5c5c5",
     //"editorHint.foreground": "#eeeeeeb3",
     //"editorHoverWidget.statusBarBackground": "#202835",
     //"editorInfo.foreground": "#008000",
     //"editorLink.activeForeground": "#4e94ce",
     //"editorMarkerNavigationInfo.background": "#008000",
-
     //"editorPane.background": "#181919",
     // "editorUnnecessaryCode.opacity": "#000000aa",
     //"editorWhitespace.foreground": "#e3e4e229",
