@@ -106,6 +106,7 @@
     "editorWarning.foreground": "#facf5a", // Color de advertencia en el editor de codigo, subrayado
     "editorWidget.background": "#141414", // Fondo de cuadro de buscar/reemplazar
     "editorWidget.border": "#d1dfff0e", // Borde de cuadro de buscar/reemplazar
+    "editorUnnecessaryCode.opacity": "#1111117a",
     "errorForeground": "#ff4579", // Color de error en el editor de codigo, subrayado
     "extensionButton.prominentBackground": "#26A5FFcc",
     "extensionButton.prominentForeground": "#f8fafd",
@@ -134,7 +135,7 @@
     "list.dropBackground": "#67769645", // Background al arrastrar archivo a nuevo directorio
     "list.focusBackground": "#67769645",
     "list.focusForeground": "#f8fafd",
-    "list.highlightForeground": "#f8fafd",
+    "list.highlightForeground": "#26A5FF",
     "list.hoverBackground": "#67769645", // Background al hacer hover en cualquier lista
     "list.hoverForeground": "#f8fafd",
     "list.inactiveSelectionBackground": "#67769630",
@@ -166,6 +167,8 @@
     "peekViewTitleLabel.foreground": "#f8fafd", // Titulo de vista de inspeccion(archivo)
     "pickerGroup.border": "#26a5ff62", // Divisor de select (ctl+shift+p)
     "pickerGroup.foreground": "#26A5FF", // Titulo de categorias de select
+    "quickInput.background": "#141414", // Fondo de lista del pickergroup
+    "quickInput.foreground": "#99a3b8", // Color de la lista del pickergroup
     "progressBar.background": "#26A5FF",
     "scrollbar.shadow": "#111111", // Sombra en algunos encabezados que se refleja al resplazar el scroll
     "scrollbarSlider.activeBackground": "#67769694",
@@ -240,7 +243,7 @@
     //"descriptionForeground": "#99a3b8b3",
     //"editor.findRangeHighlightBackground": "#3a3d4166",
     //"editor.focusedStackFrameHighlightBackground": "#7abd7a4d",
-    // "editor.lineHighlightBorder": "#282828",
+    // "editor.lineHighlightBorder": "#67769610",
     //"editor.snippetFinalTabstopHighlightBorder": "#525252",
     //"editor.snippetTabstopHighlightBackground": "#7c7c7c4d",
     //"editor.stackFrameHighlightBackground": "#ffff0033",
@@ -252,7 +255,6 @@
     //"editorLink.activeForeground": "#4e94ce",
     //"editorMarkerNavigationInfo.background": "#008000",
     //"editorPane.background": "#181919",
-    // "editorUnnecessaryCode.opacity": "#000000aa",
     //"editorWhitespace.foreground": "#e3e4e229",
     //"extensionBadge.remoteBackground": "#26A5FF",
     //"extensionBadge.remoteForeground": "#f8fafd",
