@@ -153,7 +153,7 @@
     "panelTitle.activeForeground": "#fdf8fd", // color de font del tab en el panel
     "panelTitle.inactiveForeground": "#99a3b8", // Color de font del tab inactivo en el panel
     "peekView.border": "#26A5FF", // Borde de ver definicion (accediendo desde menu contextual)
-    "peekViewEditor.background": "#141414", // Fondo de vista de inspeccion 
+    "peekViewEditor.background": "#141414", // Fondo de vista de inspeccion
     "peekViewEditor.matchHighlightBackground": "#26a5ff62",
     "peekViewResult.background": "#111111",
     "peekViewResult.fileForeground": "#99a3b8",
@@ -175,31 +175,31 @@
     "sideBar.background": "#141414", // Sidebar
     "sideBar.border": "#141414", // Linea divisora de sidebar y area de codigo
     "sideBar.foreground": "#99a3b8", /// Color de fuente de todo el sidebar e iconos
-    "sideBarSectionHeader.background": "#141414", //TODO: Seguir aqui
-    "sideBarSectionHeader.foreground": "#99a3b8",
-    "sideBarTitle.foreground": "#99a3b8",
-    "statusBar.background": "#141414",
-    "statusBar.border": "#111111",
-    "statusBar.debuggingBackground": "#ff4579",
-    "statusBar.debuggingBorder": "#ff4579",
-    "statusBar.debuggingForeground": "#ffffff",
+    "sideBarSectionHeader.background": "#111111", // Encabezado de secciones del sidebar
+    "sideBarSectionHeader.foreground": "#99a3b8", // Titulo de secciones del siebar
+    "sideBarTitle.foreground": "#99a3b8", // Titulo de Explorador / Busqueda del sidebar
+    "statusBar.background": "#111111", // Color de la estatus bar
+    "statusBar.border": "#111111", //Borde de la estatus bar
+    "statusBar.debuggingBackground": "#ff4579", // Color de la status bar cuando se debuguea un programa
+    "statusBar.debuggingBorder": "#ff4579", // color de borde e la status bar cuando se debuguea un programa
+    "statusBar.debuggingForeground": "#ffffff", // color del font de la status bar cuando se debuguea un programa
     "statusBar.foreground": "#99a3b8",
-    "statusBar.noFolderBackground": "#141414",
-    "statusBar.noFolderBorder": "#201514",
-    "statusBarItem.activeBackground": "#2c313a",
-    "statusBarItem.hoverBackground": "#2c313a",
-    "statusBarItem.prominentBackground": "#2c313a",
-    "statusBarItem.prominentHoverBackground": "#2c313a",
-    "tab.activeBackground": "#181919",
-    "tab.activeBorder": "#26A5FF",
-    "tab.activeForeground": "#d5d9e2",
-    "tab.border": "#1f1918",
-    "tab.inactiveBackground": "#141414",
-    "tab.inactiveForeground": "#d5d9e299",
-    "tab.unfocusedActiveBorder": "#26A5FF50",
-    "tab.unfocusedActiveForeground": "#d5d9e2",
-    "tab.unfocusedInactiveForeground": "#99a3b8", // TODO: Finaliza aqui
-    "terminal.ansiBlack": "#181919",
+    "statusBar.noFolderBackground": "#111111", // status bar ventana nueva sin proyecto abierto
+    "statusBar.noFolderBorder": "#111111", // borde de la status bar sin proyecto abierto
+    "statusBarItem.activeBackground": "#26A5FF",
+    "statusBarItem.hoverBackground": "#67769657",
+    "statusBarItem.prominentBackground": "#26A5FF50",
+    "statusBarItem.prominentHoverBackground": "#26A5FF",
+    "tab.activeBackground": "#181919", // Tab activo
+    "tab.activeBorder": "#26A5FF", // Borde de tab activo
+    "tab.activeForeground": "#f8fafd", //Color de letra de tab activo
+    "tab.border": "#181919", // Separador vertical de tabs
+    "tab.inactiveBackground": "#141414", // Fondo de tabs inactivos
+    "tab.inactiveForeground": "#99a3b8b6", // Color de fuente de tab inactivo
+    "tab.unfocusedActiveBorder": "#26a5ff69", // Borde de tab inactivo
+    "tab.unfocusedActiveForeground": "#f8fafd83", // Color de font de tab activo inactivo
+    "tab.unfocusedInactiveForeground": "#99a3b87c", // Tab inactivo inactivo
+    "terminal.ansiBlack": "#181919", // TODO SEGUIR AQUI
     "terminal.ansiBlue": "#26A5FF",
     "terminal.ansiBrightBlack": "#7992b4",
     "terminal.ansiBrightBlue": "#26A5FF",
