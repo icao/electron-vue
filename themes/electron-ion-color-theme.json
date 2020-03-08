@@ -199,23 +199,23 @@
     "tab.unfocusedActiveBorder": "#26a5ff69", // Borde de tab inactivo
     "tab.unfocusedActiveForeground": "#f8fafd83", // Color de font de tab activo inactivo
     "tab.unfocusedInactiveForeground": "#99a3b87c", // Tab inactivo inactivo
-    "terminal.ansiBlack": "#181919", // TODO SEGUIR AQUI
+    "terminal.ansiBlack": "#181919",
     "terminal.ansiBlue": "#26A5FF",
     "terminal.ansiBrightBlack": "#7992b4",
     "terminal.ansiBrightBlue": "#26A5FF",
     "terminal.ansiBrightGreen": "#6af699",
     "terminal.ansiBrightMagenta": "#c792ea",
     "terminal.ansiBrightRed": "#ff4579",
-    "terminal.ansiBrightWhite": "#99a3b8",
+    "terminal.ansiBrightWhite": "#f8fafd",
     "terminal.ansiBrightYellow": "#fffa9e",
-    "terminal.ansiGreen": "#6af699",
+    "terminal.ansiGreen": "#37c756",
     "terminal.ansiMagenta": "#c792ea",
     "terminal.ansiRed": "#ff4579",
-    "terminal.ansiWhite": "#99a3b8",
+    "terminal.ansiWhite": "#f8fafd",
     "terminal.ansiYellow": "#fffa9e",
     "terminal.background": "#181919",
     "terminal.foreground": "#99a3b8",
-    "terminalCursor.foreground": "#6af699",
+    "terminalCursor.foreground": "#26A5FF",
     "titleBar.activeBackground": "#181919",
     "titleBar.activeForeground": "#9da5b4",
     "titleBar.border": "#111111",
