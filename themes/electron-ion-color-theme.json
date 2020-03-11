@@ -146,7 +146,7 @@
     "list.warningForeground": "#facf5a", // Color de font en lista del arbol (elementos con advertencia)
     "merge.currentHeaderBackground": "#26a5ff56", // Valores actuales en la rama de git
     "merge.incomingHeaderBackground": "#6af69975", // Valores entrantes en el conflicto merge
-    "notificationLink.foreground": "#33eb05", // TODO: PROBAR CON ALGUNA NOTIFICACION CON LINK
+    "notificationLink.foreground": "#26A5FF", // Texto link en la notificacion
     "notifications.background": "#111111", // Fondo de norificaciones
     "notifications.foreground": "#fdf8fdcc", // Color font de notificaciones
     "panel.background": "#141414", // Encabezado del panel inferior
