@@ -48,7 +48,7 @@
     "editor.foreground": "#bac7e4", // Font de codigo
     "editor.hoverHighlightBackground": "#26A5FF37",
     "editor.inactiveSelectionBackground": "#67769630", // Seleccion de codigo Tab Inactiva
-    "editor.lineHighlightBackground": "#67769645", // Hover/Focus de linea actual
+    "editor.lineHighlightBackground": "#67769630", // Hover/Focus de linea actual
     "editor.rangeHighlightBackground": "#26A5FF37", //Fondo de linea encontrada
     "editor.selectionBackground": "#67769660", // Seleccion de codigo
     "editor.selectionHighlightBackground": "#26a5ff62", //Selecciones que coinciden al hacer doble click en la palabra
@@ -314,7 +314,7 @@
     //"textBlockQuote.border": "#007acc80",
     //"textCodeBlock.background": "#0a0a0a66",
     "textLink.activeForeground": "#26A5FF",
-    "textLink.foreground": "#26A5FF",
+    "textLink.foreground": "#26A5FF"
     // "textPreformat.foreground": "#d7ba7d",
     // "textSeparator.foreground": "#ec0a0af6"
   },
