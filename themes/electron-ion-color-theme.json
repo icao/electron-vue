@@ -3,11 +3,12 @@
   "type": "dark",
   "colors": {
     "activityBar.activeBorder": "#26A5FF",
-    // "activityBar.activeBackground": "#26A5FF",
+    // "activityBar.activeBackground": "#0084ff",
     "activityBar.background": "#111111",
     "activityBar.border": "#111111",
     "activityBar.dropBackground": "#26A5FF53",
     "activityBar.foreground": "#d1dfff", // color de iconos de la barra de menu (source, extensions, etc)
+    "activityBar.inactiveForeground": "#d1dfff70",
     "activityBarBadge.background": "#26A5FF",
     "activityBarBadge.foreground": "#f8fafd", // base para color claro
     "badge.background": "#26A5FF",
@@ -234,7 +235,6 @@
     "widget.shadow": "#11111150",
     "window.activeBorder": "#26A5FF",
     "window.inactiveBorder": "#26A5FF60",
-    // "activityBar.inactiveForeground": "#2ef70699",
     "breadcrumb.activeSelectionForeground": "#26A5FF",
     "breadcrumb.background": "#181919",
     "breadcrumb.focusForeground": "#f8fafd",
