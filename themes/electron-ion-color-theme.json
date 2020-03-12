@@ -252,8 +252,8 @@
     // "editorHoverWidget.statusBarBackground": "#1ff303",
     //"editorInfo.foreground": "#008000",
     //"editorLink.activeForeground": "#4e94ce",
-    //"editorMarkerNavigationInfo.background": "#008000",
-    //"editorPane.background": "#181919",
+    "editorMarkerNavigationInfo.background": "#04fa04",
+    "editorPane.background": "#141414", // Fondo de editor para modo ZEN
     "editorWhitespace.foreground": "#99a3b836",
     //"extensionBadge.remoteBackground": "#26A5FF",
     //"extensionBadge.remoteForeground": "#f8fafd",
