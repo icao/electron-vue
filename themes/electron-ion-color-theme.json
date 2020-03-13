@@ -74,6 +74,7 @@
     "editorGutter.background": "#181919", // Background de la barra de numeros
     "editorGutter.deletedBackground": "#ff4579", // Flecha que señala codigo eliminado
     "editorGutter.modifiedBackground": "#f59402", // Barra lateral(en los numeros) de las ineas modificadas en el codigo actual
+    "editorHint.foreground": "#ff4579", // Indicador(puntos) de modulo o archivo no encontrado(referenciado) en el codigo
     "editorHoverWidget.background": "#141414", // Color de fondo de popup de ayuda al mantener puntero en una palabra de codigo
     "editorHoverWidget.border": "#26a5ff63", // Color de borde de popup de sugerencia informativa
     "editorIndentGuide.activeBackground": "#ffffff00", // Sangrias
