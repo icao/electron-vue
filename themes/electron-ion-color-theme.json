@@ -250,9 +250,7 @@
     // "editor.lineHighlightBorder": "#181919", //Color borde se linea seleccionada
     // "editor.snippetFinalTabstopHighlightBorder": "#525252",
     // "editor.snippetTabstopHighlightBackground": "#7c7c7c4d",
-    "editor.stackFrameHighlightBackground": "#ffff012c", // Linea actual en estado de depuracion(Se muestra en tiempo de ejecucion de debugger)
-    // "editorGutter.commentRangeForeground": "#c5c5c5",
-    "editorHint.foreground": "#65f802b3",
+    // "editorGutter.commentRangeForeground": "#c5c5c5"
     // "editorHoverWidget.statusBarBackground": "#1ff303",
     //"editorInfo.foreground": "#008000",
     // "editorLink.activeForeground": "#4e94ce",
@@ -272,7 +270,7 @@
     "gitlens.trailingLineForegroundColor": "#99a3b836",
     // "list.errorForeground": "#f88070",
     // "listFilterWidget.background": "#653723",
-    // "listFilterWidget.noMatchesOutline": "#be1100",
+    // "listFilterWidget.noMatchesOutline": "#be1100", // TODO: VERIFICAR
     //"listFilterWidget.outline": "#00000000",
     "menu.background": "#181919",
     "menu.foreground": "#99a3b8",
