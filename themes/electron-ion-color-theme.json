@@ -34,6 +34,7 @@
     "debugIcon.stepOutForeground": "#26A5FF",
     "debugIcon.stepOverForeground": "#26A5FF",
     "debugIcon.stopForeground": "#ff4579",
+    "editor.stackFrameHighlightBackground": "#ffff012c", // Linea actual en estado de depuracion(Se muestra en tiempo de ejecucion de debugger)
     "diffEditor.insertedTextBackground": "#6af69921", // Text de GIT Agregado
     "diffEditor.insertedTextBorder": "#181919",
     "diffEditor.removedTextBackground": "#ff457922", //Texto eliminado GIT
