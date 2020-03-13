@@ -327,7 +327,7 @@
         "meta.diff.header.to-file"
       ],
       "settings": {
-        "foreground": "#a2bffc",
+        "foreground": "#7AA2F7",
         "fontStyle": "italic"
       }
     },
@@ -392,14 +392,14 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
       "name": "User-defined constant",
       "scope": ["constant.character", "constant.other"],
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -413,7 +413,7 @@
       "name": "RegExp String",
       "scope": ["string.regexp", "string.regexp keyword.other"],
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -490,7 +490,7 @@
       "name": "Function name",
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#82aaff",
+        "foreground": "#7AA2F7",
         "fontStyle": ""
       }
     },
@@ -546,7 +546,7 @@
       "name": "Library (function & constant)",
       "scope": ["support.function", "support.constant"],
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -788,7 +788,7 @@
       "name": "Entity Other Attribute Name Id",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -859,7 +859,7 @@
       "name": "Entity Name Function",
       "scope": ["entity.name.function"],
       "settings": {
-        "foreground": "#82aaff",
+        "foreground": "#7AA2F7",
         "fontStyle": ""
       }
     },
@@ -947,7 +947,7 @@
       "name": "Variable Function",
       "scope": "variable.function",
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -961,7 +961,7 @@
       "name": "Meta Function Call",
       "scope": "meta.function-call",
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1130,7 +1130,7 @@
       "name": "ID selector for CSS",
       "scope": "entity.other.attribute-name.id.css",
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1147,7 +1147,7 @@
         "source.elixir meta.module.elixir entity.name.class.elixir"
       ],
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1164,7 +1164,7 @@
         "source.elixir constant.other.keywords.elixir"
       ],
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1241,7 +1241,7 @@
       "name": "JavaScript Method Declaration e.g. `constructor`",
       "scope": "meta.method.declaration storage.type.js",
       "settings": {
-        "foreground": "#82aaff",
+        "foreground": "#7AA2F7",
         "fontStyle": ""
       }
     },
@@ -1289,7 +1289,7 @@
       "name": "Other Variables in Code Documentations",
       "scope": ["variable.other.jsdoc", "variable.other.phpdoc"],
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1315,7 +1315,7 @@
       "name": "JavaScript Variable Parameter Function",
       "scope": "variable.parameter.function.js",
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1360,14 +1360,14 @@
       "name": "JSON Property Names",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
       "name": "JSON Support Constants",
       "scope": "support.constant.json",
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1511,7 +1511,7 @@
         "string.other.link.description.markdown"
       ],
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1583,7 +1583,7 @@
         "meta.function-call.arguments.python"
       ],
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1614,7 +1614,7 @@
       "name": "Python Language Variable",
       "scope": "source.python variable.language.special",
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1644,7 +1644,7 @@
         "source.css.sass meta.at-rule variable"
       ],
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1719,7 +1719,7 @@
       "name": "TypeScript[React] Node Classes",
       "scope": ["support.class.node.ts", "support.class.node.tsx"],
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1751,21 +1751,21 @@
         "meta.decorator punctuation.decorator.tsx"
       ],
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
       "name": "TypeScript[React] Punctuation Decorators",
       "scope": "meta.tag.js meta.jsx.children.tsx",
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
       "name": "YAML Entity Name Tags",
       "scope": "entity.name.tag.yaml",
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
@@ -1817,7 +1817,7 @@
       "name": "TypeScript Method Declaration e.g. `constructor`",
       "scope": "meta.method.declaration storage.type.tsx",
       "settings": {
-        "foreground": "#82aaff"
+        "foreground": "#7AA2F7"
       }
     },
     {
