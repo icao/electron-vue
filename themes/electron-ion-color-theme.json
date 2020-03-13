@@ -133,13 +133,13 @@
     "inputValidation.infoBorder": "#26A5FF",
     "inputValidation.warningBackground": "#181919", // Cuadro de sugerencia al hacer busqueda general desde la barra
     "inputValidation.warningBorder": "#facf5a", // Color de advertencia de entrada en la busqueda general
-    "list.activeSelectionBackground": "#67769645", // Seleccion(focus) al hacer click en el arbol de archivos (sidebar)
+    "list.activeSelectionBackground": "#6776963b", // Seleccion(focus) al hacer click en el arbol de archivos (sidebar)
     "list.activeSelectionForeground": "#26A5FF", // Font seleccion(focus) de archivo actual
-    "list.dropBackground": "#67769645", // Background al arrastrar archivo a nuevo directorio
-    "list.focusBackground": "#67769645",
+    "list.dropBackground": "#6776963b", // Background al arrastrar archivo a nuevo directorio
+    "list.focusBackground": "#6776963b",
     "list.focusForeground": "#f8fafd",
     "list.highlightForeground": "#26A5FF",
-    "list.hoverBackground": "#67769645", // Background al hacer hover en cualquier lista
+    "list.hoverBackground": "#6776963b", // Background al hacer hover en cualquier lista
     "list.hoverForeground": "#f8fafd",
     "list.inactiveSelectionBackground": "#67769630",
     "list.inactiveSelectionForeground": "#99a3b8",
