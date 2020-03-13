@@ -281,10 +281,8 @@
     //"merge.commonHeaderBackground": "#60606066",
     //"merge.currentContentBackground": "#99a3b866",
     //"merge.incomingContentBackground": "#26A5FF1b",
-    //"notificationCenterHeader.background": "#1a1f2a",
-    "notifications.border": "#26A5FF",
-    //"panel.dropBackground": "#ffffff1f",
-    //"peekViewEditorGutter.background": "#111111",
+    // "panel.dropBackground": "#ffffff1f",
+    "peekViewEditorGutter.background": "#181919", // Fondo de barra de numeros en modo vista(ver definicion)
     "settings.checkboxBackground": "#141414",
     "settings.checkboxBorder": "#d1dfff21",
     "settings.checkboxForeground": "#26A5FF",
