@@ -212,13 +212,13 @@
     "terminal.ansiBrightBlack": "#7992b4",
     "terminal.ansiBrightBlue": "#26A5FF",
     "terminal.ansiBrightGreen": "#6af699",
-    "terminal.ansiBrightMagenta": "#c792ea",
+    "terminal.ansiBrightMagenta": "#de7df7",
     "terminal.ansiBrightRed": "#ff4579",
     "terminal.ansiBrightWhite": "#f8fafd",
     "terminal.ansiBrightYellow": "#fffa9e",
     "terminal.ansiBrightCyan": "#4ff2f8",
     "terminal.ansiGreen": "#37c756",
-    "terminal.ansiMagenta": "#c792ea",
+    "terminal.ansiMagenta": "#de7df7",
     "terminal.ansiRed": "#ff4579",
     "terminal.ansiWhite": "#f8fafd",
     "terminal.ansiYellow": "#fffa9e",
@@ -446,7 +446,7 @@
         "meta.class meta.method.declaration meta.var.expr storage.type.js"
       ],
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": ""
       }
     },
@@ -454,7 +454,7 @@
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#c792ea"
+        "foreground": "#de7df7"
       }
     },
     {
@@ -468,7 +468,7 @@
       "name": "Storage modifier",
       "scope": "storage.modifier",
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": ""
       }
     },
@@ -639,7 +639,7 @@
       "name": "Keyword Operator Expression",
       "scope": "keyword.operator.expression",
       "settings": {
-        "foreground": "#c792ea"
+        "foreground": "#de7df7"
       }
     },
     {
@@ -780,7 +780,7 @@
       "name": "Meta Selector",
       "scope": "meta.selector",
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": "italic"
       }
     },
@@ -802,7 +802,7 @@
       "name": "Doctypes",
       "scope": ["entity.name.tag.doctype", "meta.tag.sgml.doctype"],
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": "italic"
       }
     },
@@ -824,7 +824,7 @@
       "name": "Keyword Operator Logical",
       "scope": "keyword.operator.logical",
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": ""
       }
     },
@@ -882,7 +882,7 @@
         "keyword.control.from.tsx"
       ],
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": ""
       }
     },
@@ -890,7 +890,7 @@
       "name": "Keyword Control Conditional",
       "scope": ["keyword.control.conditional.js"],
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": ""
       }
     },
@@ -905,7 +905,7 @@
         "keyword.control"
       ],
       "settings": {
-        "foreground": "#c792ea"
+        "foreground": "#de7df7"
       }
     },
     {
@@ -1014,7 +1014,7 @@
       "name": "Italics",
       "scope": "italic",
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": "italic"
       }
     },
@@ -1073,7 +1073,7 @@
       "name": "C# Classes & Storage types",
       "scope": ["entity.name.type.class.cs", "storage.type.cs"],
       "settings": {
-        "foreground": "#c792ea"
+        "foreground": "#de7df7"
       }
     },
     {
@@ -1188,7 +1188,7 @@
       "name": "Elixir Binary Punctuations",
       "scope": "source.elixir .punctuation.binary.elixir",
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": "italic"
       }
     },
@@ -1223,7 +1223,7 @@
       "name": "HTML Doctype",
       "scope": "meta.tag.sgml.doctype.html",
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": "italic"
       }
     },
@@ -1249,7 +1249,7 @@
       "name": "JavaScript Variable Declaration e.g. `let`, `const`",
       "scope": "meta.method.declaration meta.var.expr.js storage.type.js",
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": ""
       }
     },
@@ -1257,7 +1257,7 @@
       "name": "JavaScript Class declaration",
       "scope": "storage.type.class.js",
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": ""
       }
     },
@@ -1464,7 +1464,7 @@
       "name": "Markdown Italics",
       "scope": "markup.italic.markdown",
       "settings": {
-        "foreground": "#c792ea",
+        "foreground": "#de7df7",
         "fontStyle": "italic"
       }
     },
@@ -1784,7 +1784,7 @@
       ],
       "settings": {
         "foreground": "#c792eb",
-        // "foreground": "#c792ea",
+        // "foreground": "#de7df7",
         "fontStyle": ""
       }
     },
