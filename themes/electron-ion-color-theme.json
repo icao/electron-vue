@@ -498,7 +498,7 @@
       "name": "Meta Tag", // only react simbols of tags aperture and close '<', '>', '/'
       "scope": ["punctuation.definition.tag"],
       "settings": {
-        "foreground": "#a8b5d1"
+        "foreground": "#bac7e4"
       }
     },
     {
