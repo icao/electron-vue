@@ -1925,10 +1925,43 @@
       "name": "Components Vue", // ESTA ES LA CLAVE PARA MODIFICAR EL COMPONENTE
       "scope": [
         // "text.html.vue-html", // Texto dentro del componente
-        "meta.tag.other.html text.html.vue",
+        // "meta.tag.other.html text.html.vue", //TODO: ya estaba
         // "entity.name.tag.style.html", //Colorea tag <style> de single file .vue
-        "entity.name.tag.other.html" //Este sirve  solo cuando cierran el componente como en react <comp />
+        // "entity.name.tag.other.html", //Este sirve  solo cuando cierran el componente como en react <comp /> //TODO: ya estaba
         // "entity.name.tag.template.html" // Colorea tag <template>  de single file .vue
+        // "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue" // Signos de :, -, = en las directivas vue
+
+        // "entity.other.attribute-name.html"
+        // "meta.directive.vue"
+        // "entity.name.tag.html",
+        // "meta.tag.any.html",
+        // "meta.tag.other.html",
+        // "entity.name.tag.other.html"
+
+        // "source.vue text.html.vue-html meta.tag.block.any.html entity.name.tag.block.any.html"
+        // "source.vue text.html.vue-html meta.tag.block.any.html", // y elementos como '/' de cierre [no es muy especifico]
+        // "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue" // Signos de :, -, = en las directivas vue
+        // "source.vue text.html.vue-html entity.name.tag.block.any.html", // Solo los tags HTML dentro de  template
+        "source.vue text.html.vue-html meta.tag.other.html", //
+        "source.vue text.html.vue-html meta.tag.other.html text.html.vue", //
+        "source.vue text.html.vue-html entity.name.tag.other.html", //
+        "source.vue text.html.vue-html entity.name.tag.other.html text.html.vue", //
+        "source.vue text.html.vue-html entity.name.tag.block.any.html text.html.vue", //
+
+        // "entity.name.tag.block.any.html"
+
+        // "source.vue text.html.vue-html entity.name.tag.other.html entity.name.tag.html", //
+        // "source.vue text.html.vue-html meta.tag.any.html entity.name.tag.html", // etiquetas vacias
+        // "source.vue text.html.vue-html meta.tag.block.any.html entity.name.tag.block.any.html", // ALL HTML template>html
+
+        // "text.html.derivative meta.tag.other.unrecognized.html.derivative entity.name.tag.html", // etiqueta irreconocidas en html
+
+        "invalid.illegal.incomplete.html",
+        // "entity.other.attribute-name.html" // atributos de los tag html y vue
+        // "punctuation.separator.key-value.html" // signo '=' asignador de valor html
+        // "meta.tag.other.html entity.name.tag.other.html"
+
+        "source.vue punctuation.definition.tag"
       ],
       "settings": {
         "foreground": "#c792eb"
