@@ -1938,7 +1938,7 @@
       "name": "Curly double brackets VUE", // {{}}, []
       "scope": [
         "expression.embedded.vue", // LLAVES EN VUE
-        "source.vue text.html.vue-html expression.embedded.vue meta.array.literal.js meta.brace.square.js" // Brackets vue
+        "source.vue text.html.vue-html expression.embedded.vue meta.array.literal.js meta.brace.square.js" // Brackets vue -> {variable.hola[5]}}
       ],
       "settings": {
         "foreground": "#ff4579"
@@ -1947,8 +1947,11 @@
     {
       "name": "Directive param brackets VUE", // [] -> :result="result[0]"
       "scope": [
-        "source.vue text.html.vue-html meta.tag.other.html meta.directive.vue source.directive.vue meta.array.literal.js meta.brace.square.js", // Brackets array vue in parameter of directive vue
-        "source.vue text.html.vue-html meta.tag.other.html meta.directive.vue source.directive.vue meta.objectliteral.js punctuation.definition.block.js" // Brackets object vue in parameter of directive vue
+        // "source.vue text.html.vue-html meta.tag.other.html meta.directive.vue source.directive.vue meta.array.literal.js meta.brace.square.js", // Brackets array vue in parameter of directive vue
+        // "source.vue text.html.vue-html meta.tag.other.html meta.directive.vue source.directive.vue meta.objectliteral.js punctuation.definition.block.js" // Brackets object vue in parameter of directive vue
+        // UPDATING THE REGULATIONS 19-03-2020
+        "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue source.directive.vue meta.array.literal.js meta.brace.square.js", // Brackets array vue in parameter of directive vue
+        "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue source.directive.vue meta.objectliteral.js punctuation.definition.block.js" // Brackets object vue in parameter of directive vue
       ],
       "settings": {
         "foreground": "#ff4579"
@@ -2016,8 +2019,8 @@
     {
       "name": "Objects, Object properties VUE into Interpolation", // interpolation
       "scope": [
-        "source.vue text.html.vue-html expression.embedded.vue variable.other.object.property", // parametro de objeto dentro de la interpolacion
-        "source.vue text.html.vue-html expression.embedded.vue variable.other.property.js" // variable como propiedad de objeto
+        "source.vue text.html.vue-html expression.embedded.vue variable.other.object.property", // parametro de objeto dentro de la interpolacion -> variable.lol.nombre.lol  -> "lol.nombre' es coloreado
+        "source.vue text.html.vue-html expression.embedded.vue variable.other.property.js" // variable como propiedad de objeto, pone la anterior config en italica
       ],
       "settings": {
         "foreground": "#ff4579",
