@@ -461,6 +461,7 @@
       "name": "Storage type",
       "scope": "storage.type.function.arrow.js",
       "settings": {
+        "foreground": "#de7df7",
         "fontStyle": ""
       }
     },
@@ -1196,7 +1197,7 @@
       "name": "Go Function Calls",
       "scope": "source.go meta.function-call.go",
       "settings": {
-        "foreground": "#bcc9e4"
+        "foreground": "#bac7e4"
       }
     },
     {
@@ -1875,13 +1876,13 @@
     {
       "scope": "token.info-token",
       "settings": {
-        "foreground": "#6796e6"
+        "foreground": "#7AA2F7"
       }
     },
     {
       "scope": "token.warn-token",
       "settings": {
-        "foreground": "#cd9731"
+        "foreground": "#ffbf7a"
       }
     },
     {
