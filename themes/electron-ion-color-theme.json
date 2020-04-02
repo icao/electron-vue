@@ -529,6 +529,14 @@
       }
     },
     {
+      "name": "Other Unrecognized HTML Tag Name",
+      "scope": "meta.tag.other.unrecognized.html.derivative entity.name.tag ",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#bac7e4"
+      }
+    },
+    {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
