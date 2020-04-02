@@ -1919,6 +1919,19 @@
       }
     },
     {
+      "name": "super method JS/TS",
+      "scope": [
+        "variable.language.super.ts",
+        "variable.language.super.js",
+        "variable.language.super.tsx",
+        "variable.language.super.jsx"
+      ],
+      "settings": {
+        // "foreground": "#ffbf7a"
+        "foreground": "#ffbf7b"
+      }
+    },
+    {
       "name": "[VSCODE-CUSTOM] JS/TS Default Keyword",
       "scope": [
         "keyword.control.default.js",
