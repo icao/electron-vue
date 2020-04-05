@@ -2050,8 +2050,7 @@
         "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue source.directive.vue meta.brace.round.js" // () of function on directive vue
       ],
       "settings": {
-        "foreground": "#d1dfff",
-        // "fontStyle": "bold"
+        "foreground": "#d1dfff"
       }
     },
     {
