@@ -504,7 +504,7 @@
       }
     },
     {
-      "name": "Meta Tag", // only react simbols of tags aperture and close '<', '>', '/'
+      "name": "Meta Tag [React]", // only react jsx simbols of tags aperture and close '<', '/', '>'
       "scope": ["punctuation.definition.tag"],
       "settings": {
         "foreground": "#bac7e4"
@@ -1223,7 +1223,7 @@
       }
     },
     {
-      "name": "HTML Punctuation Definition Tag",
+      "name": "HTML Punctuation Definition Tag", // HTML SIMBOLS '<', '>', '/'
       "scope": [
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
@@ -1792,20 +1792,19 @@
       }
     },
     {
-      "name": "Support Class Component",
+      "name": "Support Class Component [React]",
       "scope": [
         "support.class.component.js",
         "support.class.component.js.jsx",
         "support.class.component.tsx"
       ],
       "settings": {
-        "foreground": "#c792eb",
-        // "foreground": "#de7df7",
+        "foreground": "#fffa9e",
         "fontStyle": ""
       }
     },
     {
-      "name": "Text nested in React tags",
+      "name": "Text nested in React tags [React]",
       "scope": [
         "meta.jsx.children",
         "meta.jsx.children.js",
@@ -2003,7 +2002,8 @@
         "source.vue text.html.vue-html expression.embedded.vue meta.array.literal.js meta.brace.square.js" // Brackets vue -> {variable.hola[5]}}
       ],
       "settings": {
-        "foreground": "#ff4579"
+        "foreground": "#ff4579",
+        // "fontStyle": "italic"
       }
     },
     {
