@@ -348,8 +348,16 @@
       }
     },
     {
-      "name": "Comment",
-      "scope": "comment",
+      "name": "Double-Slashed Comment",
+      "scope": [
+        "comment.line.double-slash",
+        "comment",
+        "punctuation.definition.comment",
+        "comment.block",
+        "comment.line",
+        "comment.block.documentation",
+        "comment.line.double-slash",
+      ],
       "settings": {
         "foreground": "#3a3e44",
         "fontStyle": "italic"
