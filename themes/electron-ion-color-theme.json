@@ -490,13 +490,13 @@
     },
     {
       "name": "Async - Await",
-      "scope": [
-        "storage.modifier.async.js"
-      ],
+      "scope": ["storage.modifier.async.js"],
       "settings": {
         "foreground": "#4ff2f8"
+        // TODO: Modificar a un color aceptable
       }
-    },{
+    },
+    {
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
