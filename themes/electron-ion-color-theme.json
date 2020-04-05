@@ -481,6 +481,14 @@
       }
     },
     {
+      "name": "Async - Await",
+      "scope": [
+        "storage.modifier.async.js"
+      ],
+      "settings": {
+        "foreground": "#4ff2f8"
+      }
+    },{
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
