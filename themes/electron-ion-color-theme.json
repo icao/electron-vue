@@ -2032,11 +2032,11 @@
     {
       "name": "Parentesis de funcion en VUE", // :do-search="method(param)"
       "scope": [
-        "source.vue text.html.vue-html meta.tag.other.html meta.directive.vue source.directive.vue meta.brace.round.js" // () of function on directive vue
+        "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue source.directive.vue meta.brace.round.js" // () of function on directive vue
       ],
       "settings": {
-        // "foreground": "#ffffff",
-        "fontStyle": "bold"
+        "foreground": "#d1dfff",
+        // "fontStyle": "bold"
       }
     },
     {
@@ -2064,7 +2064,7 @@
         "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue source.directive.vue variable.other.readwrite.js" // parametro evaluacion v-if
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#d1dfff"
       }
     },
     {
@@ -2074,7 +2074,7 @@
         "source.vue text.html.vue-html expression.embedded.vue variable.other.object.js" // objeto dentro de la interpolacion
       ],
       "settings": {
-        "foreground": "#ffffff",
+        "foreground": "#d1dfff",
         "fontStyle": "italic"
       }
     },
