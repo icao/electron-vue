@@ -899,7 +899,7 @@
       ],
       "settings": {
         "foreground": "#de7df7",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -1872,10 +1872,11 @@
         "string.quoted"
       ],
       "settings": {
-        "fontStyle": ""
+        "fontStyle": "",
       }
     },
     {
+      "name": "Format Italic Syntax for Custom Editor",
       "scope": [
         "comment",
         "punctuation.definition.comment",
@@ -1894,7 +1895,7 @@
         "keyword.control",
         "storage",
         "emphasis",
-        "variable.language"
+        // "variable.language"
       ],
       "settings": {
         "fontStyle": "italic"
