@@ -707,7 +707,7 @@
       "name": "Meta Object Literal Key",
       "scope": "meta.object-literal.key",
       "settings": {
-        "foreground": "#bac7e4"
+        "foreground": "#d1dfff"
       }
     },
     {
