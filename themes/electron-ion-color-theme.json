@@ -439,14 +439,6 @@
       }
     },
     {
-      "name": "Keyword",
-      "scope": ["punctuation.accessor", "keyword"],
-      "settings": {
-        "foreground": "#bac7e4",
-        "fontStyle": ""
-      }
-    },
-    {
       "name": "Storage",
       "scope": [
         "storage",
@@ -721,7 +713,8 @@
       "name": "Punctuation Definition Block",
       "scope": "punctuation.definition.block",
       "settings": {
-        "foreground": "#bac7e4"
+        "foreground": "#00d9ff"
+        // "foreground": "#bac7e4"
       }
     },
     {
@@ -835,7 +828,8 @@
       "name": "Punctuation Definition Parameters",
       "scope": "punctuation.definition.parameters",
       "settings": {
-        "foreground": "#bac7e4"
+        "foreground": "#00d9ff"
+        // "foreground": "#bac7e4"
       }
     },
     {
@@ -1779,7 +1773,8 @@
         "meta.export.tsx punctuation.definition.block"
       ],
       "settings": {
-        "foreground": "#bac7e5"
+        "foreground": "#00d9ff"
+        // "foreground": "#bac7e5"
       }
     },
     {
