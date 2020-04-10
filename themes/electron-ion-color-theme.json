@@ -1940,7 +1940,6 @@
       "settings": {
         "foreground": "#ffbf7a",
         "fontStyle": "italic"
-
       }
     },
     {
@@ -1968,14 +1967,17 @@
     },
     // Configuration of VUE
     {
-      "name": "Components Vue", // ESTA ES LA CLAVE PARA MODIFICAR EL COMPONENTE
+      "name": "Components Vue", // ESTA es PARA MODIFICAR EL COMPONENTE
       "scope": [
+        "source.vue entity.name.tag.other.html", // ESTE SE ACTIVARA CUANDO VETUR SE REFACTORICE DE NUEVO
+        "source.vue text.html.vue-html meta.tag.other.html" // ESTE SE ACTIVARA CUANDO VETUR SE REFACTORICE DE NUEVO
+        // NOTA: <SearAlgoNo />  El simbolo de '/' de cierre en los componentes Vue, no es reocnocido, se interpeta como un simbolo de directiva, por lo tanto es coloreado y no interpretado como cierre tipo HTML.
+
+        // ----------------------------------- MAS PROPIEDADES DE SYNTAXIS VUE ------------------------------------
         // "text.html.vue-html", // Texto dentro del componente
-        // "meta.tag.other.html text.html.vue", //TODO: ya estaba
         // "entity.name.tag.style.html", //Colorea tag <style> de single file .vue
-        // "entity.name.tag.other.html", //Este sirve  solo cuando cierran el componente como en react <comp /> //TODO: ya estaba
         // "entity.name.tag.template.html" // Colorea tag <template>  de single file .vue
-        // "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue" // Signos de :, -, = en las directivas vue
+        // "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue", // Signos de :, -, = en las directivas vue
 
         // "entity.other.attribute-name.html"
         // "meta.directive.vue"
