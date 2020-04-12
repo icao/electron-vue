@@ -997,10 +997,10 @@
       }
     },
     {
-      "name": "Punctuation Section Embedded",
+      "name": "Punctuation Section Embedded [React]",
       "scope": "punctuation.section.embedded",
       "settings": {
-        "foreground": "#ff4579"
+        "foreground": "#00d9ff"
       }
     },
     {
