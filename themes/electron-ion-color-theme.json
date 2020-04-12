@@ -35,7 +35,7 @@
     "debugIcon.stepOverForeground": "#26A5FF",
     "debugIcon.stopForeground": "#ff4579",
     "editor.stackFrameHighlightBackground": "#ffff012c", // Linea actual en estado de depuracion(Se muestra en tiempo de ejecucion de debugger)
-    "diffEditor.insertedTextBackground": "#6af69921", // Text de GIT Agregado
+    "diffEditor.insertedTextBackground": "#8dff8d21", // Text de GIT Agregado
     "diffEditor.insertedTextBorder": "#181919",
     "diffEditor.removedTextBackground": "#ff457922", //Texto eliminado GIT
     "diffEditor.removedTextBorder": "#181919",
@@ -70,7 +70,7 @@
     "editorGroupHeader.noTabsBackground": "#181919", // Colod de fondo cuando los tabs estan inhabilitados
     "editorGroupHeader.tabsBackground": "#141414", // Fondeo de grupo de tabs
     "editorGroupHeader.tabsBorder": "#18191900", // Linea dividora de el bradcum
-    "editorGutter.addedBackground": "#6af699cc", // Barra lateral(en los numeros) de las lineas agregadas en el codigo actual
+    "editorGutter.addedBackground": "#8dff8dcc", // Barra lateral(en los numeros) de las lineas agregadas en el codigo actual
     "editorGutter.background": "#181919", // Background de la barra de numeros
     "editorGutter.deletedBackground": "#ff4579", // Flecha que señala codigo eliminado
     "editorGutter.modifiedBackground": "#f59402", // Barra lateral(en los numeros) de las ineas modificadas en el codigo actual
@@ -117,7 +117,7 @@
     "focusBorder": "#26A5FF",
     "foreground": "#f8fafd",
     "gitDecoration.conflictingResourceForeground": "#facf5a", // Color Indicador de conflicto en la lista del arbol de archivos. Solo aplica para archivos identificados con conflictos despues de un merge
-    "gitDecoration.addedResourceForeground": "#6af699cc", // Color indicador en lista del arbol de archivos, elemento agregado
+    "gitDecoration.addedResourceForeground": "#8dff8dcc", // Color indicador en lista del arbol de archivos, elemento agregado
     "gitDecoration.deletedResourceForeground": "#ff4579", // Color indicador en lista del arbol de archivos, elemento eliminado
     "gitDecoration.ignoredResourceForeground": "#99a3b856", // Color indicador en la lista del arbol de archivos de archivos ignorados
     "gitDecoration.modifiedResourceForeground": "#f59402", // Color indicador en la lista del arbol de archivos de archivos modificados
@@ -147,7 +147,7 @@
     "list.errorForeground": "#ff4579", // Color de font en lista del arbol (elementos con error)
     "list.warningForeground": "#facf5a", // Color de font en lista del arbol (elementos con advertencia)
     "merge.currentHeaderBackground": "#26a5ff56", // Valores actuales en la rama de git
-    "merge.incomingHeaderBackground": "#6af69975", // Valores entrantes en el conflicto merge
+    "merge.incomingHeaderBackground": "#8dff8d75", // Valores entrantes en el conflicto merge
     "notificationLink.foreground": "#26A5FF", // Texto link en la notificacion
     "notifications.background": "#111111", // Fondo de norificaciones
     "notifications.foreground": "#fdf8fdcc", // Color font de notificaciones
@@ -211,7 +211,7 @@
     "terminal.ansiBlue": "#26A5FF",
     "terminal.ansiBrightBlack": "#7992b4",
     "terminal.ansiBrightBlue": "#26A5FF",
-    "terminal.ansiBrightGreen": "#6af699",
+    "terminal.ansiBrightGreen": "#8dff8d",
     "terminal.ansiBrightMagenta": "#de7df7",
     "terminal.ansiBrightRed": "#ff4579",
     "terminal.ansiBrightWhite": "#f8fafd",
@@ -343,7 +343,7 @@
       "name": "Inserted",
       "scope": "markup.inserted.diff",
       "settings": {
-        "foreground": "#6af699ff",
+        "foreground": "#8dff8dff",
         "fontStyle": "italic"
       }
     },
@@ -367,14 +367,14 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
       "name": "String Quoted",
       "scope": ["string.quoted", "variable.other.readwrite.js"],
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -435,7 +435,7 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -555,7 +555,7 @@
       "name": "Entity Name Tag Custom",
       "scope": "entity.name.tag.custom",
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -706,7 +706,7 @@
       "name": "Punctuation Definition String",
       "scope": "punctuation.definition.string",
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -1025,7 +1025,7 @@
         "punctuation.definition.list"
       ],
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -1039,7 +1039,7 @@
       "name": "Backtics(``) in Template Strings",
       "scope": "string.template punctuation.definition.string",
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -1054,7 +1054,7 @@
       "name": "Bold",
       "scope": "bold",
       "settings": {
-        "foreground": "#6af699",
+        "foreground": "#8dff8d",
         "fontStyle": "bold"
       }
     },
@@ -1186,7 +1186,7 @@
       "name": "Elixir Functions",
       "scope": "source.elixir entity.name.function",
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -1203,7 +1203,7 @@
       "name": "Elixir String Punctuations",
       "scope": "source.elixir punctuation.definition.string",
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -1213,7 +1213,7 @@
         "source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
       ],
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -1406,7 +1406,7 @@
       "name": "JSON Property values (string)",
       "scope": "meta.structure.dictionary.value.json string.quoted.double",
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -1416,7 +1416,7 @@
         "punctuation.definition.string.json"
       ],
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -1523,7 +1523,7 @@
       "name": "Markdown Raw Code + others",
       "scope": ["markup.inline.raw.markdown", "markup.inline.raw"],
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -1591,14 +1591,14 @@
       "name": "PHP Global Variables",
       "scope": "variable.other.global.php",
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
       "name": "Declaration Punctuation in PHP Global Variables",
       "scope": "variable.other.global.php punctuation.definition.variable",
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -1639,7 +1639,7 @@
       "name": "Decorator Functions in Python",
       "scope": "entity.name.function.decorator.python",
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
@@ -1816,8 +1816,16 @@
         "support.class.component.tsx"
       ],
       "settings": {
-        "foreground": "#fffa9e",
-        "fontStyle": ""
+        // "foreground": "#FFE164",
+        // "foreground": "#FAD46B",
+        // "foreground": "#FED587",
+        // "foreground": "#F5D76E",
+        // "foreground": "#FFD464",
+        // "foreground": "#FFc857",
+        "foreground": "#00d9ff"
+        // "foreground": "#6af699" // original
+        // "foreground": "#7dff7d" // Prop original
+        // "foreground": "#8dff8d" // prop definitivo
       }
     },
     {
@@ -2046,7 +2054,7 @@
         "punctuation.definition.string.end.html"
       ],
       "settings": {
-        "foreground": "#6af699"
+        "foreground": "#8dff8d"
       }
     },
     {
