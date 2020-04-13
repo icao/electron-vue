@@ -148,11 +148,17 @@
     "list.warningForeground": "#facf5a", // Color de font en lista del arbol (elementos con advertencia)
     "merge.currentHeaderBackground": "#26a5ff56", // Valores actuales en la rama de git
     "merge.incomingHeaderBackground": "#8dff8d75", // Valores entrantes en el conflicto merge
-    "notificationLink.foreground": "#26A5FF", // Texto link en la notificacion
-    "notifications.background": "#111111", // Fondo de norificaciones
-    "notifications.foreground": "#fdf8fdcc", // Color font de notificaciones
+    "notificationCenter.border": "#141414",
+    "notificationCenterHeader.foreground": "#fdf8fd",
     "notificationCenterHeader.background": "#111111", //Color de header de notificaciones
+    "notificationToast.border": "#ff4579",
+    "notifications.foreground": "#fdf8fdcc", // Color font de notificaciones
+    "notifications.background": "#111111", // Fondo de norificaciones
     "notifications.border": "#26A5FF",
+    "notificationLink.foreground": "#26A5FF", // Texto link en la notificacion
+    "notificationsErrorIcon.foreground": "#ff4579",
+    "notificationsWarningIcon.foreground": "#facf5a",
+    "notificationsInfoIcon.foreground": "#26A5FF",
     "panel.background": "#141414", // Encabezado del panel inferior
     "panel.border": "#141414", //Color divisor de panel inferior
     "panelTitle.activeBorder": "#26A5FF", // Color de tab activo en el panel
