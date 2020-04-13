@@ -139,7 +139,7 @@
     "list.focusBackground": "#6776963b",
     "list.focusForeground": "#f8fafd",
     "list.highlightForeground": "#26A5FF",
-    "list.hoverBackground": "#6776963b", // Background al hacer hover en cualquier lista
+    "list.hoverBackground": "#6776963b", // Background al hacer hover en cualquier lista / notificaciones
     "list.hoverForeground": "#f8fafd",
     "list.inactiveSelectionBackground": "#67769630",
     "list.inactiveSelectionForeground": "#99a3b8",
