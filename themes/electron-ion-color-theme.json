@@ -278,10 +278,10 @@
     // "listFilterWidget.background": "#653723",
     // "listFilterWidget.noMatchesOutline": "#be1100", // TODO: VERIFICAR
     //"listFilterWidget.outline": "#00000000",
-    "menu.background": "#181919",
+    "menu.background": "#141414",
     "menu.foreground": "#99a3b8",
     "menu.selectionBackground": "#67769645",
-    "menu.selectionForeground": "#f8fafd",
+    "menu.selectionForeground": "#d1dfff",
     "menu.separatorBackground": "#677696dc",
     "menubar.selectionBackground": "#67769645",
     "menubar.selectionForeground": "#9da5b4",
@@ -2117,6 +2117,6 @@
         // "foreground": "#00d9ff"
         "foreground": "#d1dfff"
       }
-    },
+    }
   ]
 }
