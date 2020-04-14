@@ -434,7 +434,7 @@
       "name": "Comma in functions",
       "scope": "meta.function punctuation.separator.comma",
       "settings": {
-        "foreground": "#3a3e44"
+        "foreground": "#00d9ff"
       }
     },
     {
@@ -1523,7 +1523,7 @@
         "markup.quote.markdown"
       ],
       "settings": {
-        "foreground": "#3a3e44",
+        "foreground": "#00d9ff",
         "fontStyle": "italic"
       }
     },
