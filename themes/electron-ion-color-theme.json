@@ -999,7 +999,7 @@
       "name": "Meta Function Call",
       "scope": "meta.function-call",
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#fffa9e"
       }
     },
     {
