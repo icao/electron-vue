@@ -1822,13 +1822,14 @@
         "support.class.component.tsx"
       ],
       "settings": {
+        "foreground": "#fffa9e",
         // "foreground": "#FFE164",
         // "foreground": "#FAD46B",
         // "foreground": "#FED587",
         // "foreground": "#F5D76E",
         // "foreground": "#FFD464",
         // "foreground": "#FFc857",
-        "foreground": "#00d9ff"
+        // "foreground": "#00d9ff",
         // "foreground": "#6af699" // original
         // "foreground": "#7dff7d" // Prop original
         // "foreground": "#8dff8d" // prop definitivo
