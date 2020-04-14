@@ -487,11 +487,13 @@
       }
     },
     {
-      "name": "Async - Await",
-      "scope": ["storage.modifier.async.js"],
+      "name": "Async JS",
+      "scope": [
+        "storage.modifier.async.js",
+      ],
       "settings": {
-        "foreground": "#00d9ff"
-        // TODO: Modificar a un color aceptable
+        "foreground": "#fffa9e",
+        "fontStyle": "italic"
       }
     },
     {
