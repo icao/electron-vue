@@ -3,6 +3,7 @@
   "type": "dark",
   "colors": {
     "activityBar.activeBorder": "#26A5FF",
+    // "activityBar.activeBorder": "#009cff", // SIG PROPUESTA DE AZUL
     // "activityBar.activeBackground": "#0084ff",
     "activityBar.background": "#111111",
     "activityBar.border": "#111111",
@@ -151,7 +152,7 @@
     "notificationCenter.border": "#141414",
     "notificationCenterHeader.foreground": "#fdf8fd",
     "notificationCenterHeader.background": "#111111", //Color de header de notificaciones
-    "notificationToast.border": "#ff4579",
+    "notificationToast.border": "#141414",
     "notifications.foreground": "#fdf8fdcc", // Color font de notificaciones
     "notifications.background": "#111111", // Fondo de norificaciones
     "notifications.border": "#26A5FF",
