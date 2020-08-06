@@ -45,11 +45,6 @@
         "label": "Electron vue darker",
         "uiTheme": "vs-dark",
         "path": "./themes/electron-vue-darker-color-theme.json"
-      },
-      {
-        "label": "Electron ion",
-        "uiTheme": "vs-dark",
-        "path": "./themes/electron-ion-color-theme.json"
       }
     ]
   }
