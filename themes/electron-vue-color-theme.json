@@ -332,7 +332,7 @@
         "meta.diff.header.to-file"
       ],
       "settings": {
-        "foreground": "#7AA2F7",
+        "foreground": "#82aaff",
         "fontStyle": "italic"
       }
     },
@@ -393,8 +393,7 @@
       "name": "Number",
       "scope": ["constant.numeric", "constant.character.numeric"],
       "settings": {
-        "foreground": "#ffbf7a",
-        "fontStyle": ""
+        "foreground": "#ffbf7a"
       }
     },
     {
@@ -405,14 +404,14 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
       "name": "User-defined constant",
       "scope": ["constant.character", "constant.other"],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -426,7 +425,7 @@
       "name": "RegExp String",
       "scope": ["string.regexp", "string.regexp keyword.other"],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -451,8 +450,7 @@
         "meta.class meta.method.declaration meta.var.expr storage.type.js"
       ],
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": ""
+        "foreground": "#c792ea"
       }
     },
     {
@@ -466,16 +464,14 @@
       "name": "Storage type",
       "scope": "storage.type.function.arrow.js",
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": ""
+        "foreground": "#c792ea"
       }
     },
     {
       "name": "Storage modifier",
       "scope": "storage.modifier",
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": ""
+        "foreground": "#c792ea"
       }
     },
     {
@@ -504,8 +500,7 @@
       "name": "Function name",
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "#7AA2F7",
-        "fontStyle": ""
+        "foreground": "#82aaff"
       }
     },
     {
@@ -536,15 +531,13 @@
         "meta.tag.html"
       ],
       "settings": {
-        "foreground": "#ff4579",
-        "fontStyle": ""
+        "foreground": "#ff4579"
       }
     },
     {
       "name": "Other Unrecognized HTML Tag Name",
       "scope": "meta.tag.other.unrecognized.html.derivative entity.name.tag ",
       "settings": {
-        "fontStyle": "",
         "foreground": "#bac7e4"
       }
     },
@@ -552,7 +545,6 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "fontStyle": "",
         "foreground": "#ffbf7a"
       }
     },
@@ -567,7 +559,7 @@
       "name": "Library (function & constant)",
       "scope": ["support.function", "support.constant"],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -609,16 +601,14 @@
       "name": "Keyword",
       "scope": ["punctuation", "punctuation.accessor", "keyword"],
       "settings": {
-        "foreground": "#00d9ff",
-        "fontStyle": ""
+        "foreground": "#00d9ff"
       }
     },
     {
       "name": "Keyword Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#00d9ff",
-        "fontStyle": ""
+        "foreground": "#00d9ff"
       }
     },
     {
@@ -719,7 +709,6 @@
       "scope": "punctuation.definition.block",
       "settings": {
         "foreground": "#00d9ff"
-        // "foreground": "#bac7e4"
       }
     },
     {
@@ -750,8 +739,7 @@
       "name": "Variable Parameter Function",
       "scope": "variable.parameter.function",
       "settings": {
-        "foreground": "#00d9ff",
-        "fontStyle": ""
+        "foreground": "#00d9ff"
       }
     },
     {
@@ -763,8 +751,7 @@
         "meta.property-list entity.name.tag"
       ],
       "settings": {
-        "foreground": "#00d9ff",
-        "fontStyle": ""
+        "foreground": "#00d9ff"
       }
     },
     {
@@ -811,7 +798,7 @@
       "name": "Entity Other Attribute Name Id",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -834,7 +821,6 @@
       "scope": "punctuation.definition.parameters",
       "settings": {
         "foreground": "#00d9ff"
-        // "foreground": "#bac7e4"
       }
     },
     {
@@ -848,8 +834,7 @@
       "name": "Keyword Operator Logical",
       "scope": "keyword.operator.logical",
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": ""
+        "foreground": "#c792ea"
       }
     },
     {
@@ -868,23 +853,19 @@
       "name": "Variable Property Other properties",
       "scope": ["variable.other.object.property", "variable.other.property"],
       "settings": {
-        "foreground": "#ff4579",
-        "fontStyle": ""
+        "foreground": "#ff4579"
       }
     },
     {
       "name": "Variable Property Other object",
       "scope": ["variable.other.object.js"],
-      "settings": {
-        "fontStyle": ""
-      }
+      "settings": {}
     },
     {
       "name": "Entity Name Function",
       "scope": ["entity.name.function"],
       "settings": {
-        "foreground": "#7AA2F7",
-        "fontStyle": ""
+        "foreground": "#82aaff"
       }
     },
     {
@@ -914,8 +895,7 @@
       "name": "Keyword Control Conditional",
       "scope": ["keyword.control.conditional.js"],
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": ""
+        "foreground": "#c792ea"
       }
     },
     {
@@ -984,7 +964,7 @@
       "name": "Variable Function",
       "scope": "variable.function",
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1129,8 +1109,7 @@
         "support.constant.property-value.css"
       ],
       "settings": {
-        "foreground": "#ff4579",
-        "fontStyle": ""
+        "foreground": "#ff4579"
       }
     },
     {
@@ -1175,7 +1154,7 @@
       "name": "ID selector for CSS",
       "scope": "entity.other.attribute-name.id.css",
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1192,7 +1171,7 @@
         "source.elixir meta.module.elixir entity.name.class.elixir"
       ],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1209,7 +1188,7 @@
         "source.elixir constant.other.keywords.elixir"
       ],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1286,24 +1265,21 @@
       "name": "JavaScript Method Declaration e.g. `constructor`",
       "scope": "meta.method.declaration storage.type.js",
       "settings": {
-        "foreground": "#7AA2F7",
-        "fontStyle": ""
+        "foreground": "#82aaff"
       }
     },
     {
       "name": "JavaScript Variable Declaration e.g. `let`, `const`",
       "scope": "meta.method.declaration meta.var.expr.js storage.type.js",
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": ""
+        "foreground": "#c792ea"
       }
     },
     {
       "name": "JavaScript Class declaration",
       "scope": "storage.type.class.js",
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": ""
+        "foreground": "#c792ea"
       }
     },
     {
@@ -1334,7 +1310,7 @@
       "name": "Other Variables in Code Documentations",
       "scope": ["variable.other.jsdoc", "variable.other.phpdoc"],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1360,7 +1336,7 @@
       "name": "JavaScript Variable Parameter Function",
       "scope": "variable.parameter.function.js",
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1390,8 +1366,7 @@
       "name": "JavaScript Entity Name Type",
       "scope": ["entity.name.type.js", "entity.name.type.module.js"],
       "settings": {
-        "foreground": "#fffa9e",
-        "fontStyle": ""
+        "foreground": "#fffa9e"
       }
     },
     {
@@ -1405,14 +1380,14 @@
       "name": "JSON Property Names",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
       "name": "JSON Support Constants",
       "scope": "support.constant.json",
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1556,7 +1531,7 @@
         "string.other.link.description.markdown"
       ],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1628,7 +1603,7 @@
         "meta.function-call.arguments.python"
       ],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1638,7 +1613,7 @@
         "meta.function-call.generic.python"
       ],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1659,7 +1634,7 @@
       "name": "Python Language Variable",
       "scope": "source.python variable.language.special",
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1689,7 +1664,7 @@
         "source.css.sass meta.at-rule variable"
       ],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1772,7 +1747,7 @@
       "name": "TypeScript[React] Node Classes",
       "scope": ["support.class.node.ts", "support.class.node.tsx"],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1795,7 +1770,6 @@
       ],
       "settings": {
         "foreground": "#00d9ff"
-        // "foreground": "#bac7e5"
       }
     },
     {
@@ -1805,21 +1779,21 @@
         "meta.decorator punctuation.decorator.tsx"
       ],
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
       "name": "TypeScript[React] Punctuation Decorators",
       "scope": "meta.tag.js meta.jsx.children.tsx",
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
       "name": "YAML Entity Name Tags",
       "scope": "entity.name.tag.yaml",
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1837,7 +1811,7 @@
         "support.class.component.tsx"
       ],
       "settings": {
-        "foreground": "#fffa9e"
+        "foreground": "#c792ea"
         // "foreground": "#FFE164",
         // "foreground": "#FAD46B",
         // "foreground": "#FED587",
@@ -1879,7 +1853,7 @@
       "name": "TypeScript Method Declaration e.g. `constructor`",
       "scope": "meta.method.declaration storage.type.tsx",
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -1905,9 +1879,7 @@
         "source.css",
         "string.quoted"
       ],
-      "settings": {
-        "fontStyle": ""
-      }
+      "settings": {}
     },
     {
       "name": "Format Italic Syntax for Custom Editor",
@@ -1938,7 +1910,7 @@
     {
       "scope": "token.info-token",
       "settings": {
-        "foreground": "#7AA2F7"
+        "foreground": "#82aaff"
       }
     },
     {
@@ -2002,8 +1974,8 @@
         "source.vue entity.name.tag.other.html", // ESTE SE ACTIVARA CUANDO VETUR SE REFACTORICE DE NUEVO
         "source.vue text.html.vue-html meta.tag.other.html" // ESTE SE ACTIVARA CUANDO VETUR SE REFACTORICE DE NUEVO
         // NOTA: <SearAlgoNo />  El simbolo de '/' de cierre en los componentes Vue, no es reocnocido, se interpeta como un simbolo de directiva, por lo tanto es coloreado y no interpretado como cierre tipo HTML.
-        // ----------------------------------- MAS PROPIEDADES DE SYNTAXIS VUE ------------------------------------
-        // "text.html.vue-html", // Texto dentro del componente
+        // ------------------- MAS PROPIEDADES DE SYNTAXIS VUE ------------------------------
+        // "text.html.vue-html" // Texto dentro del componente
         // "entity.name.tag.style.html", //Colorea tag <style> de single file .vue
         // "entity.name.tag.template.html" // Colorea tag <template>  de single file .vue
         // "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue", // Signos de :, -, = en las directivas vue
@@ -2015,29 +1987,29 @@
         // "entity.name.tag.other.html"
         // "entity.name.tag.block.any.html" // cualquier bloque de tags html con contneido
         // "source.vue text.html.vue-html meta.tag.block.any.html entity.name.tag.block.any.html"
-        // "source.vue text.html.vue-html meta.tag.block.any.html", // y elementos como '/' de cierre [no es muy especifico]
+        // "source.vue text.html.vue-html meta.tag.block.any.html" // y elementos como '/' de cierre [no es muy especifico]
         // "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue" // Signos de :, -, = en las directivas vue
-        // "source.vue text.html.vue-html entity.name.tag.block.any.html", // Solo los tags HTML dentro de  template
-        // "source.vue text.html.vue-html meta.tag.any.html entity.name.tag.html", // etiquetas vacias
-        // "source.vue text.html.vue-html meta.tag.block.any.html entity.name.tag.block.any.html", // ALL HTML template>html
-        // "text.html.derivative meta.tag.other.unrecognized.html.derivative entity.name.tag.html", // etiqueta irreconocidas en html
+        // "source.vue text.html.vue-html entity.name.tag.block.any.html" // Solo los tags HTML dentro de  template
+        // "source.vue text.html.vue-html meta.tag.any.html entity.name.tag.html" // etiquetas vacias
+        // "source.vue text.html.vue-html meta.tag.block.any.html entity.name.tag.block.any.html" // ALL HTML template>html
+        // "text.html.derivative meta.tag.other.unrecognized.html.derivative entity.name.tag.html" // etiqueta irreconocidas en html
         // "entity.other.attribute-name.html" // atributos de los tag html y vue
         // "meta.tag.other.html entity.name.tag.other.html"
-        // "punctuation.separator.key-value.html", // signo '=' asignador de valor html
+        // "punctuation.separator.key-value.html" // signo '=' asignador de valor html
         // "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue" // Signos de :, -, = en las directivas vue
       ],
       "settings": {
-        "foreground": "#c792eb"
+        "foreground": "#c792ea"
       }
     },
     {
       "name": "Curly double brackets VUE", // {{}}, []
       "scope": [
-        "expression.embedded.vue punctuation", // LLAVES EN VUE
-        "source.vue text.html.vue-html expression.embedded.vue meta.array.literal.js meta.brace.square.js" // Brackets vue -> {variable.hola[5]}}
+        // "expression.embedded.vue punctuation", // LLAVES EN VUE
+        "source.vue text.html.vue-html expression.embedded.vue meta.array.literal.js meta.brace.square.js" // Brackets de objeto dentro de interpolacion vue -> {{variable.hola[5]}}
       ],
       "settings": {
-        // "foreground": "#ff4579"
+        "foreground": "#ff4579"
       }
     },
     {
@@ -2069,7 +2041,7 @@
         "source.vue text.html.vue-html meta.tag.block.any.html meta.directive.vue source.directive.vue meta.brace.round.js" // () of function on directive vue
       ],
       "settings": {
-        "foreground": "#d1dfff"
+        "foreground": "#00d9ff"
       }
     },
     {
@@ -2107,8 +2079,8 @@
         "source.vue text.html.vue-html expression.embedded.vue variable.other.object.js" // objeto dentro de la interpolacion
       ],
       "settings": {
-        "foreground": "#d1dfff",
-        "fontStyle": "italic"
+        "foreground": "#d1dfff"
+        // "fontStyle": "italic"
       }
     },
     {
@@ -2118,12 +2090,12 @@
         "source.vue text.html.vue-html expression.embedded.vue variable.other.property.js" // variable como propiedad de objeto, pone la anterior config en italica
       ],
       "settings": {
-        "foreground": "#ff4579",
-        "fontStyle": "italic"
+        "foreground": "#ff4579"
+        // "fontStyle": "italic"
       }
     },
     {
-      "name": "Meta Object Literal Key VUE: Component, Methods and computed",
+      "name": "Meta Object Literal Key VUE: Component, Methods and Computed",
       "scope": "source.vue meta.object-literal.key",
       "settings": {
         // "foreground": "#00d9ff"
