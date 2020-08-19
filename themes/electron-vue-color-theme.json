@@ -332,24 +332,21 @@
         "meta.diff.header.to-file"
       ],
       "settings": {
-        "foreground": "#82aaff",
-        "fontStyle": "italic"
+        "foreground": "#82aaff"
       }
     },
     {
       "name": "Deleted",
       "scope": "markup.deleted.diff",
       "settings": {
-        "foreground": "#ff457990",
-        "fontStyle": "italic"
+        "foreground": "#ff457990"
       }
     },
     {
       "name": "Inserted",
       "scope": "markup.inserted.diff",
       "settings": {
-        "foreground": "#6af699ff",
-        "fontStyle": "italic"
+        "foreground": "#6af699ff"
       }
     },
     {
@@ -364,8 +361,7 @@
         "comment.line.double-slash"
       ],
       "settings": {
-        "foreground": "#506686",
-        "fontStyle": "italic"
+        "foreground": "#506686"
       }
     },
     {
@@ -485,8 +481,7 @@
       "name": "Async JS",
       "scope": ["storage.modifier.async.js"],
       "settings": {
-        "foreground": "#fffa9e",
-        "fontStyle": "italic"
+        "foreground": "#fffa9e"
       }
     },
     {
@@ -608,15 +603,15 @@
       "name": "Keyword Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#00d9ff"
+        "foreground": "#00d9ff",
+        "fontStyle": ""
       }
     },
     {
       "name": "Keyword Operator Relational",
       "scope": "keyword.operator.relational",
       "settings": {
-        "foreground": "#00d9ff",
-        "fontStyle": "italic"
+        "foreground": "#00d9ff"
       }
     },
     {
@@ -686,8 +681,7 @@
       "name": "Meta Delimiter Period",
       "scope": "meta.delimiter.period",
       "settings": {
-        "foreground": "#bac7e4",
-        "fontStyle": "italic"
+        "foreground": "#bac7e4"
       }
     },
     {
@@ -790,8 +784,7 @@
       "name": "Meta Selector",
       "scope": "meta.selector",
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": "italic"
+        "foreground": "#c792ea"
       }
     },
     {
@@ -812,8 +805,7 @@
       "name": "Doctypes",
       "scope": ["entity.name.tag.doctype", "meta.tag.sgml.doctype"],
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": "italic"
+        "foreground": "#c792ea"
       }
     },
     {
@@ -887,8 +879,7 @@
         "keyword.control.from.tsx"
       ],
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": "italic"
+        "foreground": "#c792ea"
       }
     },
     {
@@ -1031,8 +1022,7 @@
       "name": "Italics",
       "scope": "italic",
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": "italic"
+        "foreground": "#c792ea"
       }
     },
     {
@@ -1047,8 +1037,7 @@
       "name": "Quote",
       "scope": "quote",
       "settings": {
-        "foreground": "#bac7e4",
-        "fontStyle": "italic"
+        "foreground": "#bac7e4"
       }
     },
     {
@@ -1143,6 +1132,16 @@
       }
     },
     {
+      "name": "CSS Pseudo Class",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class.css",
+        "entity.other.attribute-name.pseudo-element.css"
+      ],
+      "settings": {
+        "foreground": "#c792ea"
+      }
+    },
+    {
       "name": "Important propertie",
       "scope": ["keyword.other.important.scss", "keyword.other.important.css"],
       "settings": {
@@ -1212,8 +1211,7 @@
       "name": "Elixir Binary Punctuations",
       "scope": "source.elixir .punctuation.binary.elixir",
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": "italic"
+        "foreground": "#c792ea"
       }
     },
     {
@@ -1247,8 +1245,7 @@
       "name": "HTML Doctype",
       "scope": "meta.tag.sgml.doctype.html",
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": "italic"
+        "foreground": "#c792ea"
       }
     },
     {
@@ -1484,8 +1481,7 @@
       "name": "Markdown Italics",
       "scope": "markup.italic.markdown",
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": "italic"
+        "foreground": "#c792ea"
       }
     },
     {
@@ -1503,8 +1499,7 @@
         "markup.quote.markdown"
       ],
       "settings": {
-        "foreground": "#00d9ff",
-        "fontStyle": "italic"
+        "foreground": "#00d9ff"
       }
     },
     {
@@ -1857,57 +1852,6 @@
       }
     },
     {
-      "name": "normalize font style of certain components",
-      "scope": [
-        "meta.property-list.css meta.property-value.css variable.other.less",
-        "meta.property-list.scss variable.scss",
-        "meta.property-list.sass variable.sass",
-        "meta.brace",
-        "keyword.operator.operator",
-        "keyword.operator.or.regexp",
-        "keyword.operator.expression.in",
-        "keyword.operator.relational",
-        "keyword.operator.assignment",
-        "keyword.operator.comparison",
-        "keyword.operator.type",
-        "keyword.operator",
-        "keyword",
-        "punctuation.definintion.string",
-        "punctuation",
-        "variable.other.readwrite.js",
-        "storage.type",
-        "source.css",
-        "string.quoted"
-      ],
-      "settings": {}
-    },
-    {
-      "name": "Format Italic Syntax for Custom Editor",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment",
-        "comment.block",
-        "comment.line",
-        "comment.block.documentation",
-        "comment.line.double-slash",
-        "entity.other.attribute-name",
-        "entity.other.attribute-name.html",
-        "markup.italic",
-        "entity.other.attribute-name.id",
-        "entity.other.attribute-name.class.css",
-        "entity.other.attribute-name.tag.jade",
-        "entity.other.attribute-name.class.jade",
-        "entity.other.attribute-name.id.jade",
-        "keyword.control",
-        "storage",
-        "emphasis"
-        // "variable.language"
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "scope": "token.info-token",
       "settings": {
         "foreground": "#82aaff"
@@ -1940,8 +1884,7 @@
         "variable.language.this.jsx"
       ],
       "settings": {
-        "foreground": "#ffbf7a",
-        "fontStyle": "italic"
+        "foreground": "#ffbf7a"
       }
     },
     {
@@ -2080,7 +2023,6 @@
       ],
       "settings": {
         "foreground": "#d1dfff"
-        // "fontStyle": "italic"
       }
     },
     {
@@ -2091,7 +2033,6 @@
       ],
       "settings": {
         "foreground": "#ff4579"
-        // "fontStyle": "italic"
       }
     },
     {
@@ -2100,6 +2041,36 @@
       "settings": {
         // "foreground": "#00d9ff"
         "foreground": "#d1dfff"
+      }
+    },
+    {
+      "name": "Format Italic Syntax For Custom Editor - Standaritation",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "string.quoted.docstring",
+        "Keyword", // Invalid
+        "keyword.control",
+        "keyword.operator.expression",
+        "Storage", // Invalid
+        "italic",
+        "variable.language",
+        "entity.name.method.js", // TODO: ORIGINAL invetigar
+        "entity.name.method.jsx", // TODO: invetigar
+        "entity.name.method.ts", // TODO: invetigar
+        "entity.name.method.tsx", // TODO: invetigar
+        "entity.other.attribute-name",
+        "tag.decorator.js entity.name.tag.js", // TODO: ORIGINAL investigar
+        "tag.decorator.js entity.name.tag.js.jsx", // TODO: investigar
+        "tag.decorator.js entity.name.tag.jsx", // TODO: investigar
+        "tag.decorator.js punctuation.definition.tag.js", //TODO: investigar
+        "source.js constant.other.object.key.js string.unquoted.label.js", // TODO: invetigar
+        "markup.italic",
+        "markup.quote",
+        "storage.modifier.async.js"
+      ],
+      "settings": {
+        "fontStyle": "italic"
       }
     }
   ]
