@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-    <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/banner_electron_vue.jpg" alt="logo" width="100%">
+    <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/banner_electron_vue.png" alt="logo" width="100%">
   <br>
 </p>
 
@@ -9,17 +9,17 @@
 This is a cool theme for cool developers!!! 🤓<small>💫</small>😎
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/icao/electron-vue/feature-refactor-theme/assets/electron_vue.png" alt="logo" width="100%">
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue.png" alt="logo" width="100%">
 </p>
 
 ## 🤯 Enjoy the new interface, harmony, color standardization and consistency
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/icao/electron-vue/feature-refactor-theme/assets/electron_vue_interfaz.png" alt="logo" width="100%">
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_interfaz.png" alt="logo" width="100%">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/icao/electron-vue/feature-refactor-theme/assets/electron_vue_interfaz_02.png" alt="logo" width="100%">
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_interfaz_02.png" alt="logo" width="100%">
 </p>
 
 ## 🧰 Getting started
@@ -50,7 +50,11 @@ Ready! 😁
 ## 📣 Try the darker version: **Electron Vue Darker** 😍
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/icao/electron-vue/feature-refactor-theme/assets/electron_vue_darker.png" alt="logo" width="100%">
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker.png" alt="logo" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/electron_vue_darker_interfaz.png" alt="logo" width="100%">
 </p>
 
 ## ✅ Activate Electron Vue Darker Theme
@@ -65,6 +69,11 @@ Type theme, choose **Preferences: Color Theme**
 Select: **Electron vue darker**  
 And enjoy! 🎉🕺🏻🎊
 
+## 🚧 👾 Neon Mode 🚧
+
+Correction of Neon Mode - Work in progress...
+
+<!--
 ## ✋ But it is not all
 
 <p align="center">
@@ -128,9 +137,9 @@ Read the details in documentation on how to install and use the plug-in.
    - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
    - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-   Type **Enable custom CSS and JS**  
-   Restart  
-   And enjoy! 🎉🕺🏻🎊
+   Type **Enable custom CSS and JS**
+   Restart
+   And enjoy! 🎉🕺🏻🎊 -->
 
 ## 🎨 Recommended settings for a better experience
 
@@ -178,7 +187,7 @@ It was made possible by the tutorial "[Create a VS code theme](https://css-trick
 ## 📰 Extra: If you are bored of classic dark themes, try inheritance theme
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/icao/electron-vue/feature-refactor-theme/assets/mini_banner_theme.png" alt="logo" width="100%">
+  <img src="https://raw.githubusercontent.com/icao/electron-vue/master/assets/mini_banner_theme.png" alt="logo" width="100%">
 </p>
 
 You can install this awesome and cool theme through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=icao.inheritance).
