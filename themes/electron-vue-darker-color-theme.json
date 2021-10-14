@@ -76,8 +76,8 @@
     "editorHint.foreground": "#ff4579", // Indicador(puntos) de modulo o archivo no encontrado(referenciado) en el codigo
     "editorHoverWidget.background": "#13161f", // Color de fondo de popup de ayuda al mantener puntero en una palabra de codigo / Inspect Editor Tokens and Scopes
     "editorHoverWidget.border": "#d1dfff1a", // Color de borde de popup de sugerencia informativa
-    "editorIndentGuide.activeBackground": "#ffffff00", // Sangrias
-    "editorIndentGuide.background": "#ffffff00", // Sangria actual
+    "editorIndentGuide.activeBackground": "#d1dfffab", // Sangria actual - current guidelines
+    "editorIndentGuide.background": "#d1dfff3a", // Sangria - guidelines
     "editorLineNumber.activeForeground": "#d1dfffab", // numero de linea activa
     "editorLineNumber.foreground": "#d1dfff3a", // numero de linea
     "editorMarkerNavigation.background": "#13161f", // Fondo de errores de los sig dos:
