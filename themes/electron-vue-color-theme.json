@@ -44,14 +44,14 @@
     "editor.background": "#212836", // Background del editor(fondo de codigo)
     "editor.findMatchBackground": "#37c88637",
     "editor.findMatchBorder": "#37c886",
-    "editor.findMatchHighlightBackground": "#37c88637",
+    "editor.findMatchHighlightBackground": "#37c8862d",
     "editor.foreground": "#bac7e4", // Font de codigo
     "editor.hoverHighlightBackground": "#37c88637",
     "editor.inactiveSelectionBackground": "#67769630", // Seleccion de codigo Tab Inactiva
     "editor.lineHighlightBackground": "#67769630", // Hover/Focus de linea actual
     "editor.rangeHighlightBackground": "#37c88637", //Fondo de linea encontrada
     "editor.selectionBackground": "#67769660", // Seleccion de codigo
-    "editor.selectionHighlightBackground": "#37c88662", //Selecciones que coinciden al hacer doble click en la palabra
+    "editor.selectionHighlightBackground": "#37c88715", //Selecciones que coinciden al hacer doble click en la palabra
     "editor.selectionHighlightBorder": "#37c886f2",
     "editor.wordHighlightBackground": "#37c8862d", // Seleccion donde se usa un argumento o parametro
     "editor.wordHighlightBorder": "#37c88654",
